@@ -1,0 +1,166 @@
+RESUMO
+A área de Inteligência Artificial demonstrou avanços extraordinários nos últimos anos e, atualmente, é utilizada para solucionar inúmeros problemas tecnológicos e econômicos. Como boa parte do sucesso atual da Inteligência Artificial se deve às técnicas de Aprendizado de Máquina, particularmente às Redes Neurais Artificiais, neste artigo falamos dessas áreas, estado atual, desafios e oportunidades de pesquisas. Vamos também mencionar preocupações com impactos sociais e questões éticas.
+
+PALAVRAS-CHAVE:
+Inteligência Artificial; Aprendizado de Máquina; Ética em Inteligência Artificial
+
+ABSTRACT
+The field of Artificial Intelligence has advanced extraordinarily in recent years, and nowadays it is used to solve numerous technological and economic problems. Because much of the current success of Artificial Intelligence derives from Machine Learning techniques, particularly Neural Networks, this article will discuss these areas of research as well as the current state, challenges and research opportunities of AI. We will also mention concerns about social impacts and ethical issues.
+
+KEYWORDS:
+Artificial Intelligence; Machine Learning; Ethics in Artificial Intelligence
+
+O sucesso da Inteligência Artificial
+Estamos vivenciando uma nova revolução industrial. Essa revolução tem sido impulsionada pelo desenvolvimento de tecnologias avançadas como a Inteligência Artificial (IA). As máquinas não estão somente fazendo trabalhos manuais, mas também trabalhos racionais, tarefas que requerem o uso do que se considera inteligência.
+
+As máquinas estão aprendendo a dirigir automóveis. Já existem carros que podem se mover sem motorista, como os carros do Google e da Tesla. A liberação do uso de alguns desses carros, de forma totalmente autônoma e independente, está aguardando legislação adequada e a realização de mais testes em ambientes reais, assim como em situações excepcionais de alto risco. Tais sistemas devem ser robustos o suficiente para lidar com situações para as quais não tenham sido treinados, assim como situações que possam colocar as vidas dos motoristas e pedestres em risco (Feng et al., 2021).
+
+Uma área de crescente aplicação da automação é a de diagnósticos automáticos. Hoje já contamos com diagnósticos automáticos que são corretos e precisos, às vezes até mais precisos que os diagnósticos feitos pelos profissionais de saúde. A empresa iFlytek criou um robô que passou no exame nacional para licenciamento de médicos da China (Saracco, 2017). O “Médico Assistente robô” registra os sintomas dos pacientes, analisa as imagens de tomografia computadorizada e faz o diagnóstico inicial. O robô não se destina a substituir médicos. Em vez disso, tem como objetivo ajudá-los e aumentar sua eficiência.
+
+Outra aplicação de sucesso que faz uso da Inteligência Artificial são os tradutores automáticos, como os tradutores do Google, que fazem traduções com precisões cada vez melhores. O processo de tradução de texto é feito com sucesso em razão da quantidade de textos, isto é, dados que existem disponíveis. A área da Inteligência Artificial que lida com a tradução e manipulação de textos é conhecida por Processamento de Linguagem Natural (Torfi et al., 2020; Otter et al., 2021).
+
+Os sistemas de Visão Computacional são hoje bem eficientes. Em 2012, uma Rede Neural (técnica de Inteligência Artificial) teve o melhor desempenho na competição chamada ImageNet Challenge,1 que consiste no reconhecimento de diferentes classes de objetos em uma base de dados com aproximadamente 14 milhões de imagens. Em 2012 o ganho na qualidade do reconhecimento das imagens nessa competição foi de menos de 1% em comparação com outros sistemas, usando a Rede Neural Profunda AlexNet (erro 15,3%). Em 2014 o erro de classificação das imagens dos sistemas utilizando técnicas de Inteligência Artificial e Aprendizado de Máquina foi de 7,3%, e em 2016 foi de 3,6%, o que supera o desempenho humano obtido na base do ImageNet, que foi de 5,1%. Outro exemplo de sucesso em reconhecimento de padrão é o DeepFace, 2 um sistema de reconhecimento facial do Facebook, que também utiliza Redes Neurais Profundas. O DeepFace identifica rostos humanos em imagens digitais e consegue detectar quem são as pessoas que estão nas fotos independentemente do ângulo.
+
+Os bons Sistemas de Recomendação, como o da Amazon (recomendação de livros e produtos em geral), Netflix (recomendação de filmes e séries), Spotify (recomendação de músicas) e muitos outros, também são consequências do avanço das técnicas de IA. Hoje as recomendações fornecidas por esses sistemas estão de acordo com as preferências dos usuários.
+
+A IA tem sido utilizada com sucesso nos sistemas financeiros, por exemplo, nas bolsas de valores. Vale ressaltar a importância de que os sistemas sejam desenvolvidos corretamente. Em agosto de 2012, por um erro do sistema, o agente financeiro do Knight Capital Group perdeu 460 milhões de dólares na bolsa de valores de Nova York em um único dia,3 sendo considerado um dos piores erros (bugs) de programação da história.
+
+Hoje computadores já ganham competições de campeões mundiais como foi o caso com o jogo Go. Em 2017, o AlphaGo4 Master, da empresa DeepMind, ganhou do campeão mundial, Ke Jie, no jogo de Go. AlphaGo aprendeu a jogar Go por treinamento, isto é, vendo muitos exemplos de bons jogos. Assistiu milhares de jogos dos campeões e depois jogou milhares de vezes, como fazem os humanos quando querem se tornar bons jogadores em algum jogo específico.
+
+Não é possível programar o computador para ser campeão em jogos como o Go, nem para desempenhar as inúmeras tarefas que os computadores estão desempenhando bem atualmente. É por meio do Aprendizado de Máquina que o computador está adquirindo novas habilidades. As técnicas de Aprendizado de Máquina permitem que o computador aprenda por exemplos, ou seja, aprenda por meio dos dados. O Aprendizado de Máquina tornou-se chave para colocar conhecimento nos computadores.
+
+O que as soluções de sucesso usando IA têm em comum?
+Foram mencionadas as soluções com sucesso de vários problemas complexos utilizando técnicas de IA. O que esses problemas têm em comum para justificar o uso de IA? Não existem soluções algorítmicas para esses problemas, isto é, não se sabe como escrever programas para resolvê-los. Mas existem muitos dados (informações) para esses problemas, o que possibilita o treinamento de algoritmos e uso do aprendizado de máquina.
+
+Os humanos têm muito conhecimento intuitivo, que não conseguem expressar verbalmente com facilidade. Não se tem acesso consciente a esse conhecimento intuitivo. Sem uma compreensão formal desse conhecimento intuitivo não é possível escrever programas para representá-lo. Então qual é a solução? A solução é a máquina aprender esse conhecimento por si mesma, de maneira similar a como os seres humanos aprendem.
+
+Qual foi a grande mudança nos últimos anos?
+Algumas técnicas de IA foram definidas nos anos 1950. Por que então somente agora se está conseguindo solucionar esses problemas com IA, se algumas das técnicas de IA são antigas?
+
+As técnicas de IA que fazem sucesso hoje precisam de muito poder computacional e de muitos exemplos (dados), que não estavam disponíveis até pouco tempo. Agora com as GPU (Graphic Processing Unit), maior poder computacional e muitos dados, as técnicas de IA conseguem resolver problemas cada vez mais complexos.
+
+Hoje estão disponíveis muitos dados: dados das empresas, dados das pessoas, dados dos equipamentos (por exemplo, oriundos do uso de Internet das Coisas).
+
+O aumento da capacidade dos computadores atuais é parcialmente em razão das técnicas de Aprendizado de Máquina. Entretanto, não é de hoje que se deseja fazer que o computador aprenda. Por exemplo, Alan Turing, o pai da computação, desenvolveu um teste, conhecido como teste de Turing, para saber se os computadores eram capazes de aprender. De maneira simples podemos dizer que o teste de Turing consiste em um humano conseguir saber se ele está conversando com outro humano ou com uma máquina. Se o humano não conseguir descobrir se ele está conversando com uma máquina, é um indicativo de que o sistema é inteligente e passou no Teste de Turing (Turing, 1950). Hoje muitos sistemas de IA passam no teste de Turing, mas a capacidade de aprender dos computadores ainda não é igual à capacidade de aprender dos humanos.
+
+Ainda não se sabe como fazer os computadores aprenderem como os humanos aprendem. Nem sequer se sabe exatamente como os humanos aprendem, mas já existem alguns algoritmos eficientes em “ensinar” algumas tarefas específicas aos computadores.
+
+Tipos de Inteligência Artificial
+A IA pode ser caracterizada em três tipos: IA Focada, IA Generalizada e IA Superinteligente.
+
+A IA Focada, também conhecida como IA Fraca, consiste de algoritmos especializados em resolver problemas em uma área e/ou um problema específico. Aqui os sistemas armazenam uma grande quantidade de dados e os algoritmos são capazes de realizar tarefas complexas, porém sempre focadas no objetivo para o qual foram desenvolvidos. Os Sistemas Especialistas e Sistemas de Recomendação são exemplos de sistemas de IA focada.
+
+Na IA Generalizada, também conhecida como IA Forte, os algoritmos desenvolvidos se tornam tão capazes quanto humanos em várias tarefas e, em geral, os algoritmos usam técnicas de Aprendizado de Máquina como ferramenta. Em algumas tarefas os algoritmos têm desempenho semelhante aos humanos, por exemplo, em Visão Computacional. O nível atual da IA é de IA Generalizada.
+
+Na IA Superinteligente, os algoritmos são significantemente mais capazes que humanos em praticamente todas as tarefas. Ainda não existem sistemas com IA Superinteligente e não se sabe se existirão sistemas mais inteligentes que os humanos desenvolvidos com técnicas de IA.
+
+Aprendizado de Máquina e tipos de Aprendizado de Máquina
+O objetivo do Aprendizado de Máquina (AM) é a construção de programas que melhorem seu desempenho por meio de exemplos (Mitchell, 1997). Para isso é necessária uma grande quantidade de exemplos para gerar o conhecimento do computador, que são hipóteses geradas a partir dos dados.
+
+As técnicas de AM são orientadas a dados, isto é, aprendem automaticamente a partir de grandes volumes de dados. Os algoritmos de AM geram hipóteses a partir dos dados.
+
+A inferência indutiva é um dos principais métodos utilizados para derivar conhecimento novo e predizer eventos futuros em Aprendizado de Máquina. A generalização pode não ser feita de maneira correta na inferência indutiva. As chances de as generalizações serem corretas aumentam de acordo com a qualidade dos dados. O mesmo fenômeno acontece com AM, dados mais precisos levam a generalizações mais precisas.
+
+Existem três tipos principais de Aprendizado de Máquina: Supervisionado, Não Supervisionado e por Reforço.
+
+No Aprendizado Supervisionado, para cada exemplo apresentado ao algoritmo de aprendizado é necessário apresentar a resposta desejada (ou seja, um rótulo informando a que classe o exemplo pertence, no caso de um problema de classificação de imagens, por exemplo, como distinguir imagens de gatos e de cachorros). Cada exemplo é descrito por um vetor de valores (atributos) e pelo rótulo da classe associada. O objetivo do algoritmo é construir um classificador que possa determinar corretamente a classe de novos exemplos ainda não rotulados. Para rótulos de classe discretos, esse problema é chamado de classificação e para valores contínuos como regressão. Esse método de aprendizado é o mais utilizado.
+
+No Aprendizado Não Supervisionado, os exemplos são fornecidos ao algoritmo sem rótulos. O algoritmo agrupa os exemplos pelas similaridades dos seus atributos. O algoritmo analisa os exemplos fornecidos e tenta determinar se alguns deles podem ser agrupados de alguma maneira, formando agrupamentos ou clusters. Após a determinação dos agrupamentos, em geral, é necessária uma análise para determinar o que cada agrupamento significa no contexto problema sendo analisado.
+
+No Aprendizado por Reforço, o algoritmo não recebe a resposta correta mas recebe um sinal de reforço, de recompensa ou punição. O algoritmo faz uma hipótese baseado nos exemplos e determina se essa hipótese foi boa ou ruim. Aprendizado por Reforço é bastante utilizado em jogos e robótica, e foi a técnica utilizada no AlphaGo.
+
+O uso de Aprendizado de Máquina para solucionar problemas nem sempre é fácil e precisa de alguns pré-requisitos. Precisa de um bom conjunto de exemplos. Muitas vezes a base de exemplos precisa ser construída e atualizada constantemente. Como os dados nem sempre são bons, faz-se necessário o uso de técnicas que melhorem a qualidade dos dados. Nem todo algoritmo de AM resolve todo tipo de problema, então é preciso fazer a seleção dos conjuntos de algoritmos apropriadas para o problema que se precisa resolver. Uma vez escolhidos os algoritmos, precisa-se definir os parâmetros dos algoritmos (por exemplo, o número de camadas de uma Rede Neural). Depois do treinamento precisa-se saber se o algoritmo está resolvendo o problema e com que precisão o problema está sendo resolvido. Por fim, o sistema precisa ser atualizado, porque mudanças nos dados podem fazer com que os sistemas deixem de funcionar.
+
+Redes Neurais Artificiais
+Uma das técnicas de Aprendizado de Máquina que tem tido sucesso em resolver muitos problemas são as Redes Neurais Artificiais (RNA). As RNA são modelos matemáticos que se inspiram nas estruturas neurais biológicas e que têm a capacidade computacional adquirida por meio de aprendizado. O processamento da informação em RNA é feito nos neurônios artificiais, conhecidos como neurônio McCulloch e Pitts (ou modelo MCP) (McCulloch; Pitts, 1943).
+
+O modelo mais simples de aprendizado com Redes Neurais, o Perceptron, foi definido em 1957 por Frank Rosemblat e resolve problemas simples que são linearmente separáveis (Rosenblatt, 1957). O Perceptron é composto por uma estrutura com uma única camada, tendo como unidades básicas neurônios MCP e uma regra de aprendizado. O algoritmo de aprendizagem do Perceptron utiliza a correção de erros (diferença entre a resposta desejada e a resposta da rede) como base. Para fazer o aprendizado da Rede Neural existe uma fase de treinamento e uma fase de teste do algoritmo. Na fase de treinamento os exemplos rotulados são apresentados ao algoritmo. Os parâmetros da rede (pesos) são modificados a cada apresentação de um novo exemplo à rede. Depois do ajuste dos parâmetros, na fase de teste, o sistema é avaliado.
+
+Para resolver problemas mais complexos são necessárias redes de Perceptrons organizadas em múltiplas camadas MLP (do inglês, Multi-Layer Perceptrons). O algoritmo mais utilizado para treinar as MLP chama-se Backpropagation (Rumelhart et al., 1986) e resolveu muitos problemas mas a solução dos problemas não é garantida (problemas de mínimos locais) e outras técnicas, SVM (do inglês Support Vector Machines) (Cortes; Vapnik, 1995), por exemplo, começaram a apresentar melhores resultados que Redes Neurais na solução de vários problemas, como no reconhecimento de imagens, até que o uso de Redes Neurais com muitas camadas escondidas, que são chamadas de Redes Neurais Profundas (do inglês, Deep Neural Networks) (LeCun et al., 2015) começassem a ser utilizadas largamente.
+
+Redes Neurais Profundas foram inspiradas pela sensibilidade local e orientação seletiva do cérebro. Essas redes foram projetadas para que implicitamente extraiam características relevantes da entrada. São as Redes Neurais Profundas que estão resolvendo a maioria dos problemas satisfatoriamente.
+
+Nas Redes Neurais Profundas, em geral, as redes deixam de ter estruturas totalmente conectadas (um neurônio se conecta a todos os neurônios da camada anterior). Em vez disso, cada neurônio passa a se conectar com um conjunto limitado de neurônios da camada anterior, restringindo a conexão entre neurônios a janelas limitadas (também conhecidas como filtros ou kernels). Camadas que utilizam esse tipo de mecanismo são chamadas de camadas de convolução. Tais camadas são definidas como um conjunto de filtros (kernels) que, por sua vez, são matrizes que definem uma determinada característica visual que se deseja detectar na imagem. As Redes Profundas têm também uma camada de Pooling, uma grade de unidades, que sumarizam de alguma forma as ativações dos neurônios com que se conectam.
+
+Impactos da Inteligência Artificial
+O uso da IA está mudando o cotidiano das pessoas e para um uso responsável dessas técnicas, fazem-se necessários estudos sobre impactos sociais e éticos da IA, assim como estudos sobre seus riscos, seus impactos, seus benefícios - evitando receios infundados e problemas reais.
+
+A IA pode gerar impactos bons e ruins. A IA pode evitar que o ser humano se exponha a tarefas perigosas, tarefas que já podem ser realizadas por máquinas. A IA pode eliminar a necessidade de tarefas automáticas serem executadas por humanos e, com isso, sobrar tempo para que os humanos lidem com tarefas mais instigantes e prazerosas.
+
+O uso da IA vem trazendo muitos benefícios, tais como: melhorias nos serviços de saúde; Processamento de Linguagem Natural: voz para texto, tradução; melhorias na educação; energia limpa e barata; detecção de fraudes; meios de transportes mais seguros (aplicativos de transporte), rápidos (rota otimizadas) e limpos.
+
+A IA também tem impactos negativos. Perda de vagas de trabalho é um desses impactos negativos. Vagas de empregos menos qualificados que aumentam as desigualdades sociais. Serão necessários planejamento e ações de governo para minimizar os impactos negativos da IA.
+
+Além das preocupações sociais, o uso de IA envolve inúmeras questões éticas e morais, entre elas: a possibilidade de uso de armas poderosas e automáticas, a invasão da nossa privacidade, a falta de transparência de como as nossas informações estão sendo utilizadas, a falta de explicações de como os sistemas de IA chegam as suas conclusões. Alguns desses problemas já estão sendo tratados mundialmente com os códigos de privacidade de dados, mas ainda estão longe de serem resolvidos.
+
+O Institute of Electrical and Electronic Engineers (IEEE), a Association for Computing Machinery (ACM), a Comunidade Comum Europeia, entre outros, já têm diretrizes para um uso responsável da IA (Hagendorff, 2020). No Brasil temos projetos de lei na câmara dos deputados (Projetos de Lei n.21/20 e 240/20, que remetem ao cumprimento da Lei Geral de Proteção de Dados (LGPD)) e outros no senado federal (Projetos de Lei n.5051/2019 e 5691/2019).
+
+Um aspecto legal que precisa ser resolvido é quem será responsabilizado pelos erros e acertos dos algoritmos de IA em sistemas críticos, como na utilização de carros autônomos. Serão os desenvolvedores ou os usuários dos sistemas?
+
+Desafios da Inteligência Artificial
+Tem havido um interesse crescente de pesquisadores e profissionais em desenvolver e implantar modelos e algoritmos de Aprendizado de Máquina que não são apenas precisos, mas são também explicáveis, justos, que preservam a privacidade, são causais e robustos. Essa ampla área de pesquisa é comumente referida como Aprendizado de Máquina Confiável.
+
+Os sistemas de IA precisam ser explicáveis porque as pessoas devem entender as soluções sugeridas pelos modelos. As explicações dos modelos de IA também servem para se descobrir possíveis erros no próprio modelo, por exemplo, talvez uma das variáveis utilizadas não esteja ajudando na solução ou até esteja atrapalhando. Algumas pesquisas estão sugerindo explicar os modelos complexos de IA pelo uso de modelos mais simples. Outras pesquisas estão usando Técnicas de Explicações Definidas a Posteriori (do inglês, Post Hoc Explanations Techniques), mas as explicações obtidas com essas soluções ainda não são confiáveis.
+
+Como mencionado anteriormente, parte do sucesso da IA é oriunda da quantidade de dados disponíveis atualmente e do poder computacional das máquinas modernas. Em relação à quantidade e complexidade dos dados, as máquinas precisam de uma quantidade muito maior de exemplos que os humanos para aprender. Não se sabe ainda quantos exemplos são necessários para a máquina aprender uma tarefa complexa. É também necessário reduzir a necessidade de tantos exemplos nos algoritmos de Aprendizado de Máquina porque com dados mais complexos, máquinas melhores serão necessárias. Por outro lado, os humanos aprendem também por correlação com o que já sabem para resolver novos problemas, um mecanismo semelhante a esse dos humanos precisa ser desenvolvido para as técnicas de IA.
+
+Na área de Processamento de Linguagem Natural, para reduzir o tempo de treinamento dos algoritmos, foram desenvolvidos sistemas pré-treinados, como Bert (Bidirectional Encoder Representations from Transformers) e GPT (Generative Pre-Training Transformer), que foram treinados com enormes conjuntos de dados de linguagem geral, como por exemplo o Corpus da Wikipédia, e podem ser ajustados para tarefas de linguagens específicas (Devlin et. al., 2019).
+
+Existem pesquisas que utilizam Aprendizado Autossupervisionado (do inglês, Self-Supervised Learning) para realizar o aprendizado com um menor número de exemplos (Ravanelli et. al, 2020).
+
+Além da necessidade de muitos exemplos no processo de treinamento, alguns exemplos das tarefas reais podem ser letais e a experiência, limitada e custosa. Não existem disponíveis bons simuladores da vida real para gerar dados de treinamento, e muitos conceitos de alto nível e o conhecimento sobre o mundo são fornecidos por seres humanos, que rotulam dados de treinamento que serão apresentados aos algoritmos de Aprendizado de Máquina. Os conjuntos de treinamento fornecidos aos algoritmos podem não ser uma boa representação do mundo real, e as amostras podem estar enviesadas. Por exemplo, um sistema pode ser desenvolvido para distinguir gatos de cachorros, mas no conjunto de treinamento apresentado ao algoritmo, todos os cachorros são pretos e todos os gatos são brancos, então o sistema pode aprender a distinguir preto de branco e não gato de cachorro. Nesses casos, é necessária a experiência dos humanos para descobrir e solucionar o problema.
+
+Outro aspecto relacionado aos dados é que muitos problemas reais são dinâmicos e dados são gerados continuamente, como por exemplo no gerenciamento de transportes e monitoramento por redes de sensores. Para resolver problemas dinâmicos são necessárias técnicas de aprendizado em ambientes dinâmicos de fluxos contínuos de dados (Gama, 2012).
+
+A resolução de problemas complexos utilizando técnicas de AM necessita do design automático, eficiente e correto do sistema. Escolhas eficientes de pré-processamento dos dados, seleção da família de algoritmos apropriados, escolha dos hiperparâmetros dos algoritmos, seleção de atributos e pós-processamento. Para uma maior aplicabilidade das técnicas de AM, a resolução dos problemas com AM precisa ser mais automática. Uma possibilidade é usar Meta-Aprendizado (Hospedales et al., 2020). No meta-aprendizado temos algoritmos que aprendem quais algoritmos e que valores de parâmetros devem ser utilizados para se alcançar bons desempenhos de forma automática.
+
+Um desafio importante de longo prazo é descobrir princípios simples e poderosos que expliquem a inteligência humana. Esses princípios simples e poderosos ajudarão na construção das máquinas inteligentes, da mesma forma que a descoberta das leis de aerodinâmica trouxe o avanço na aviação.
+
+Conclusões
+Máquinas estão bem longe de aprender a dominar muitos aspectos do nosso mundo, embora o sucesso da IA seja inegável e esteja impactando nossas vidas. As questões éticas e sociais oriundas do uso IA precisam ser avaliadas e resolvidas ao menos parcialmente em um curto espaço de tempo.
+
+A utilização e o desenvolvimento científico em IA têm oportunidades de pesquisa e trabalho em muitas áreas, não somente em Aprendizado de Máquina, mas em outras subáreas, como representação de conhecimento e tomada de decisão. Nos próximos anos haverá o aperfeiçoamento de muitas aplicações que já estão sendo resolvidas parcialmente, tais como: Análise de Sentimentos; personalização de ensino, saúde, lazer, investimentos; robôs domésticos, veículos autônomos; detecção de posicionamento; captura de ironia, humor, sarcasmo; interpretação de tom e intenção de fala.
+
+Referências
+CORTES, C.; VAPNIK, V. Support-vector networks. Machine Learning, v.20, p.273-97,1995. Disponível em: <https://doi.org/10.1007/BF00994018>.
+» https://doi.org/10.1007/BF00994018
+DEVLIN, J. et al. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805, 2019. Disponível em: <https://arxiv.org/abs/1810.04805>. Acesso em: 7. fev. 2021.
+» https://arxiv.org/abs/1810.04805
+FENG, S. et al. Intelligent driving intelligence test for autonomous vehicles with naturalistic and adversarial environment. Nat Commun, v.12, p.748, 2021. Disponível em: <https://doi.org/10.1038/s41467-021-21007-8>
+» https://doi.org/10.1038/s41467-021-21007-8
+GAMA, J. A survey on learning from data streams: current and future trends. Progress in Artificial Intelligence, v.1, n.1, p.45-55, 2012.
+HAGENDORFF, T. The Ethics of AI Ethics: An Evaluation of Guidelines. Minds & Machines, v.30, p.99-120, 2020. Disponível em: <https://doi.org/10.1007/s11023-020-09517-8>.
+» https://doi.org/10.1007/s11023-020-09517-8
+HOSPEDALES, T. et al. A. Meta-Learning in Neural Networks: A Survey. arXiv:2004.05439, 11 Abr. 2020. Disponível em: <https://arxiv.org/abs/2004.05439>. Acesso em: 7 fev. 2021.
+» https://arxiv.org/abs/2004.05439
+LECUN, Y. et al. Deep learning. Nature v.521, p.436-44, 2015.
+MCCULLOCH, W.S.; PITTS, W. A logical calculus of the ideas immanent in nervous activity. Bulletin of Mathematical Biophysics, v.5, p.115-33, 1943. Disponível em: <https://doi.org/10.1007/BF02478259>.
+» https://doi.org/10.1007/BF02478259
+MITCHELL, T. Machine Learning. S. l.: McGraw Hill, 1997.
+OTTER, D. W. et al. A survey of the usages of deep learning for natural language processing. IEEE Transactions on Neural Networks and Learning Systems, v.32, n.2, p.604-24, 2020. Disponível em: <https://doi.org/ DOI: 10.1109/tnnls.2020.2979670>.
+» https://doi.org/10.1109/tnnls.2020.2979670
+RAVANELLI, M. et al. Multi-task self-supervised learning for robust speech recognition. In: ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). Barcelona, 2020. p.6989-93.
+ROSENBLATT, F. The Perceptron - A perceiving and recognizing automaton. Report 85-460-1. Cornell Aeronautical Laboratory, November 1957.
+RUMELHART, D. E. et al. Learning representations by back-propagating errors. Nature, v.323, p.533-6, 1986.
+SARACCO, R. Congrats Xiaoyi. You are now a medical doctor. IEEE Future Directions. 2017. Disponível em: <https://cmte.ieee.org/futuredirections/2017/12/02/congrats-xiaoyi-you-are-now-a-medical-doctor/>. Acesso em: 7 fev. 2021.
+» https://cmte.ieee.org/futuredirections/2017/12/02/congrats-xiaoyi-you-are-now-a-medical-doctor
+TORFI, A. et al. Natural language processing advancements by deep learning: A survey. arXiv preprint arXiv:2003.01200 (2020). Acesso em: 16 fev. 2021.
+TURING, A. M. Computing Machinery and Intelligence. Mind, LIX, v.236, p.433-460, doi:10.1093/mind/LIX.236.433, ISSN 0026-4423, October 1950.
+» https://doi.org/10.1093/mind/LIX.236.433
+Notas
+1
+Imagenet database. IMAGENET. Disponível em: <http://www.image-net.org>. Acesso em: 7 fev. 2021.
+2
+DeepFace. From Wikipedia, the free encyclopedia. Disponível em: <https://en.wikipe- dia.org/wiki/DeepFace>. Acesso em: 7 fev. 2021.
+3
+Knight Capital perde US$440 milhões por falha em robô. Exame.com, 2012. Disponível em: <https://exame.com/invest/mercados/knight-capital-perde-us-440-milhoes-por-falha-em-robo/>. Acesso em: 7 fev. 2021.
+4
+AlphaGo. DeepMind. Disponível em: <https://deepmind.com/research/case-studies/alphago-the-story-so-far>. Acesso em: 7 fev. 2021.
+Datas de Publicação
+ Publicação nesta coleção
+19 Abr 2021  Data do Fascículo
+Jan-Apr 2021
+Histórico
+ Recebido
+16 Fev 2021  Aceito
+18 Fev 2021
