@@ -1,1 +1,1647 @@
-WK"gS{Xu2'qaxj3l (bb*!#L
+RESUMO
+A área de Inteligência Artificial demonstrou avanços extraordinários nos últimos anos e, atualmente, é utilizada para solucionar inúmeros problemas tecnológicos e econômicos. Como boa parte do sucesso atual da Inteligência Artificial se deve às técnicas de Aprendizado de Máquina, particularmente às Redes Neurais Artificiais, neste artigo falamos dessas áreas, estado atual, desafios e oportunidades de pesquisas. Vamos também mencionar preocupações com impactos sociais e questões éticas.
+
+PALAVRAS-CHAVE:
+Inteligência Artificial; Aprendizado de Máquina; Ética em Inteligência Artificial
+
+ABSTRACT
+The field of Artificial Intelligence has advanced extraordinarily in recent years, and nowadays it is used to solve numerous technological and economic problems. Because much of the current success of Artificial Intelligence derives from Machine Learning techniques, particularly Neural Networks, this article will discuss these areas of research as well as the current state, challenges and research opportunities of AI. We will also mention concerns about social impacts and ethical issues.
+
+KEYWORDS:
+Artificial Intelligence; Machine Learning; Ethics in Artificial Intelligence
+
+O sucesso da Inteligência Artificial
+Estamos vivenciando uma nova revolução industrial. Essa revolução tem sido impulsionada pelo desenvolvimento de tecnologias avançadas como a Inteligência Artificial (IA). As máquinas não estão somente fazendo trabalhos manuais, mas também trabalhos racionais, tarefas que requerem o uso do que se considera inteligência.
+
+As máquinas estão aprendendo a dirigir automóveis. Já existem carros que podem se mover sem motorista, como os carros do Google e da Tesla. A liberação do uso de alguns desses carros, de forma totalmente autônoma e independente, está aguardando legislação adequada e a realização de mais testes em ambientes reais, assim como em situações excepcionais de alto risco. Tais sistemas devem ser robustos o suficiente para lidar com situações para as quais não tenham sido treinados, assim como situações que possam colocar as vidas dos motoristas e pedestres em risco (Feng et al., 2021).
+
+Uma área de crescente aplicação da automação é a de diagnósticos automáticos. Hoje já contamos com diagnósticos automáticos que são corretos e precisos, às vezes até mais precisos que os diagnósticos feitos pelos profissionais de saúde. A empresa iFlytek criou um robô que passou no exame nacional para licenciamento de médicos da China (Saracco, 2017). O “Médico Assistente robô” registra os sintomas dos pacientes, analisa as imagens de tomografia computadorizada e faz o diagnóstico inicial. O robô não se destina a substituir médicos. Em vez disso, tem como objetivo ajudá-los e aumentar sua eficiência.
+
+Outra aplicação de sucesso que faz uso da Inteligência Artificial são os tradutores automáticos, como os tradutores do Google, que fazem traduções com precisões cada vez melhores. O processo de tradução de texto é feito com sucesso em razão da quantidade de textos, isto é, dados que existem disponíveis. A área da Inteligência Artificial que lida com a tradução e manipulação de textos é conhecida por Processamento de Linguagem Natural (Torfi et al., 2020; Otter et al., 2021).
+
+Os sistemas de Visão Computacional são hoje bem eficientes. Em 2012, uma Rede Neural (técnica de Inteligência Artificial) teve o melhor desempenho na competição chamada ImageNet Challenge,1 que consiste no reconhecimento de diferentes classes de objetos em uma base de dados com aproximadamente 14 milhões de imagens. Em 2012 o ganho na qualidade do reconhecimento das imagens nessa competição foi de menos de 1% em comparação com outros sistemas, usando a Rede Neural Profunda AlexNet (erro 15,3%). Em 2014 o erro de classificação das imagens dos sistemas utilizando técnicas de Inteligência Artificial e Aprendizado de Máquina foi de 7,3%, e em 2016 foi de 3,6%, o que supera o desempenho humano obtido na base do ImageNet, que foi de 5,1%. Outro exemplo de sucesso em reconhecimento de padrão é o DeepFace, 2 um sistema de reconhecimento facial do Facebook, que também utiliza Redes Neurais Profundas. O DeepFace identifica rostos humanos em imagens digitais e consegue detectar quem são as pessoas que estão nas fotos independentemente do ângulo.
+
+Os bons Sistemas de Recomendação, como o da Amazon (recomendação de livros e produtos em geral), Netflix (recomendação de filmes e séries), Spotify (recomendação de músicas) e muitos outros, também são consequências do avanço das técnicas de IA. Hoje as recomendações fornecidas por esses sistemas estão de acordo com as preferências dos usuários.
+
+A IA tem sido utilizada com sucesso nos sistemas financeiros, por exemplo, nas bolsas de valores. Vale ressaltar a importância de que os sistemas sejam desenvolvidos corretamente. Em agosto de 2012, por um erro do sistema, o agente financeiro do Knight Capital Group perdeu 460 milhões de dólares na bolsa de valores de Nova York em um único dia,3 sendo considerado um dos piores erros (bugs) de programação da história.
+
+Hoje computadores já ganham competições de campeões mundiais como foi o caso com o jogo Go. Em 2017, o AlphaGo4 Master, da empresa DeepMind, ganhou do campeão mundial, Ke Jie, no jogo de Go. AlphaGo aprendeu a jogar Go por treinamento, isto é, vendo muitos exemplos de bons jogos. Assistiu milhares de jogos dos campeões e depois jogou milhares de vezes, como fazem os humanos quando querem se tornar bons jogadores em algum jogo específico.
+
+Não é possível programar o computador para ser campeão em jogos como o Go, nem para desempenhar as inúmeras tarefas que os computadores estão desempenhando bem atualmente. É por meio do Aprendizado de Máquina que o computador está adquirindo novas habilidades. As técnicas de Aprendizado de Máquina permitem que o computador aprenda por exemplos, ou seja, aprenda por meio dos dados. O Aprendizado de Máquina tornou-se chave para colocar conhecimento nos computadores.
+
+O que as soluções de sucesso usando IA têm em comum?
+Foram mencionadas as soluções com sucesso de vários problemas complexos utilizando técnicas de IA. O que esses problemas têm em comum para justificar o uso de IA? Não existem soluções algorítmicas para esses problemas, isto é, não se sabe como escrever programas para resolvê-los. Mas existem muitos dados (informações) para esses problemas, o que possibilita o treinamento de algoritmos e uso do aprendizado de máquina.
+
+Os humanos têm muito conhecimento intuitivo, que não conseguem expressar verbalmente com facilidade. Não se tem acesso consciente a esse conhecimento intuitivo. Sem uma compreensão formal desse conhecimento intuitivo não é possível escrever programas para representá-lo. Então qual é a solução? A solução é a máquina aprender esse conhecimento por si mesma, de maneira similar a como os seres humanos aprendem.
+
+Qual foi a grande mudança nos últimos anos?
+Algumas técnicas de IA foram definidas nos anos 1950. Por que então somente agora se está conseguindo solucionar esses problemas com IA, se algumas das técnicas de IA são antigas?
+
+As técnicas de IA que fazem sucesso hoje precisam de muito poder computacional e de muitos exemplos (dados), que não estavam disponíveis até pouco tempo. Agora com as GPU (Graphic Processing Unit), maior poder computacional e muitos dados, as técnicas de IA conseguem resolver problemas cada vez mais complexos.
+
+Hoje estão disponíveis muitos dados: dados das empresas, dados das pessoas, dados dos equipamentos (por exemplo, oriundos do uso de Internet das Coisas).
+
+O aumento da capacidade dos computadores atuais é parcialmente em razão das técnicas de Aprendizado de Máquina. Entretanto, não é de hoje que se deseja fazer que o computador aprenda. Por exemplo, Alan Turing, o pai da computação, desenvolveu um teste, conhecido como teste de Turing, para saber se os computadores eram capazes de aprender. De maneira simples podemos dizer que o teste de Turing consiste em um humano conseguir saber se ele está conversando com outro humano ou com uma máquina. Se o humano não conseguir descobrir se ele está conversando com uma máquina, é um indicativo de que o sistema é inteligente e passou no Teste de Turing (Turing, 1950). Hoje muitos sistemas de IA passam no teste de Turing, mas a capacidade de aprender dos computadores ainda não é igual à capacidade de aprender dos humanos.
+
+Ainda não se sabe como fazer os computadores aprenderem como os humanos aprendem. Nem sequer se sabe exatamente como os humanos aprendem, mas já existem alguns algoritmos eficientes em “ensinar” algumas tarefas específicas aos computadores.
+
+Tipos de Inteligência Artificial
+A IA pode ser caracterizada em três tipos: IA Focada, IA Generalizada e IA Superinteligente.
+
+A IA Focada, também conhecida como IA Fraca, consiste de algoritmos especializados em resolver problemas em uma área e/ou um problema específico. Aqui os sistemas armazenam uma grande quantidade de dados e os algoritmos são capazes de realizar tarefas complexas, porém sempre focadas no objetivo para o qual foram desenvolvidos. Os Sistemas Especialistas e Sistemas de Recomendação são exemplos de sistemas de IA focada.
+
+Na IA Generalizada, também conhecida como IA Forte, os algoritmos desenvolvidos se tornam tão capazes quanto humanos em várias tarefas e, em geral, os algoritmos usam técnicas de Aprendizado de Máquina como ferramenta. Em algumas tarefas os algoritmos têm desempenho semelhante aos humanos, por exemplo, em Visão Computacional. O nível atual da IA é de IA Generalizada.
+
+Na IA Superinteligente, os algoritmos são significantemente mais capazes que humanos em praticamente todas as tarefas. Ainda não existem sistemas com IA Superinteligente e não se sabe se existirão sistemas mais inteligentes que os humanos desenvolvidos com técnicas de IA.
+
+Aprendizado de Máquina e tipos de Aprendizado de Máquina
+O objetivo do Aprendizado de Máquina (AM) é a construção de programas que melhorem seu desempenho por meio de exemplos (Mitchell, 1997). Para isso é necessária uma grande quantidade de exemplos para gerar o conhecimento do computador, que são hipóteses geradas a partir dos dados.
+
+As técnicas de AM são orientadas a dados, isto é, aprendem automaticamente a partir de grandes volumes de dados. Os algoritmos de AM geram hipóteses a partir dos dados.
+
+A inferência indutiva é um dos principais métodos utilizados para derivar conhecimento novo e predizer eventos futuros em Aprendizado de Máquina. A generalização pode não ser feita de maneira correta na inferência indutiva. As chances de as generalizações serem corretas aumentam de acordo com a qualidade dos dados. O mesmo fenômeno acontece com AM, dados mais precisos levam a generalizações mais precisas.
+
+Existem três tipos principais de Aprendizado de Máquina: Supervisionado, Não Supervisionado e por Reforço.
+
+No Aprendizado Supervisionado, para cada exemplo apresentado ao algoritmo de aprendizado é necessário apresentar a resposta desejada (ou seja, um rótulo informando a que classe o exemplo pertence, no caso de um problema de classificação de imagens, por exemplo, como distinguir imagens de gatos e de cachorros). Cada exemplo é descrito por um vetor de valores (atributos) e pelo rótulo da classe associada. O objetivo do algoritmo é construir um classificador que possa determinar corretamente a classe de novos exemplos ainda não rotulados. Para rótulos de classe discretos, esse problema é chamado de classificação e para valores contínuos como regressão. Esse método de aprendizado é o mais utilizado.
+
+No Aprendizado Não Supervisionado, os exemplos são fornecidos ao algoritmo sem rótulos. O algoritmo agrupa os exemplos pelas similaridades dos seus atributos. O algoritmo analisa os exemplos fornecidos e tenta determinar se alguns deles podem ser agrupados de alguma maneira, formando agrupamentos ou clusters. Após a determinação dos agrupamentos, em geral, é necessária uma análise para determinar o que cada agrupamento significa no contexto problema sendo analisado.
+
+No Aprendizado por Reforço, o algoritmo não recebe a resposta correta mas recebe um sinal de reforço, de recompensa ou punição. O algoritmo faz uma hipótese baseado nos exemplos e determina se essa hipótese foi boa ou ruim. Aprendizado por Reforço é bastante utilizado em jogos e robótica, e foi a técnica utilizada no AlphaGo.
+
+O uso de Aprendizado de Máquina para solucionar problemas nem sempre é fácil e precisa de alguns pré-requisitos. Precisa de um bom conjunto de exemplos. Muitas vezes a base de exemplos precisa ser construída e atualizada constantemente. Como os dados nem sempre são bons, faz-se necessário o uso de técnicas que melhorem a qualidade dos dados. Nem todo algoritmo de AM resolve todo tipo de problema, então é preciso fazer a seleção dos conjuntos de algoritmos apropriadas para o problema que se precisa resolver. Uma vez escolhidos os algoritmos, precisa-se definir os parâmetros dos algoritmos (por exemplo, o número de camadas de uma Rede Neural). Depois do treinamento precisa-se saber se o algoritmo está resolvendo o problema e com que precisão o problema está sendo resolvido. Por fim, o sistema precisa ser atualizado, porque mudanças nos dados podem fazer com que os sistemas deixem de funcionar.
+
+Redes Neurais Artificiais
+Uma das técnicas de Aprendizado de Máquina que tem tido sucesso em resolver muitos problemas são as Redes Neurais Artificiais (RNA). As RNA são modelos matemáticos que se inspiram nas estruturas neurais biológicas e que têm a capacidade computacional adquirida por meio de aprendizado. O processamento da informação em RNA é feito nos neurônios artificiais, conhecidos como neurônio McCulloch e Pitts (ou modelo MCP) (McCulloch; Pitts, 1943).
+
+O modelo mais simples de aprendizado com Redes Neurais, o Perceptron, foi definido em 1957 por Frank Rosemblat e resolve problemas simples que são linearmente separáveis (Rosenblatt, 1957). O Perceptron é composto por uma estrutura com uma única camada, tendo como unidades básicas neurônios MCP e uma regra de aprendizado. O algoritmo de aprendizagem do Perceptron utiliza a correção de erros (diferença entre a resposta desejada e a resposta da rede) como base. Para fazer o aprendizado da Rede Neural existe uma fase de treinamento e uma fase de teste do algoritmo. Na fase de treinamento os exemplos rotulados são apresentados ao algoritmo. Os parâmetros da rede (pesos) são modificados a cada apresentação de um novo exemplo à rede. Depois do ajuste dos parâmetros, na fase de teste, o sistema é avaliado.
+
+Para resolver problemas mais complexos são necessárias redes de Perceptrons organizadas em múltiplas camadas MLP (do inglês, Multi-Layer Perceptrons). O algoritmo mais utilizado para treinar as MLP chama-se Backpropagation (Rumelhart et al., 1986) e resolveu muitos problemas mas a solução dos problemas não é garantida (problemas de mínimos locais) e outras técnicas, SVM (do inglês Support Vector Machines) (Cortes; Vapnik, 1995), por exemplo, começaram a apresentar melhores resultados que Redes Neurais na solução de vários problemas, como no reconhecimento de imagens, até que o uso de Redes Neurais com muitas camadas escondidas, que são chamadas de Redes Neurais Profundas (do inglês, Deep Neural Networks) (LeCun et al., 2015) começassem a ser utilizadas largamente.
+
+Redes Neurais Profundas foram inspiradas pela sensibilidade local e orientação seletiva do cérebro. Essas redes foram projetadas para que implicitamente extraiam características relevantes da entrada. São as Redes Neurais Profundas que estão resolvendo a maioria dos problemas satisfatoriamente.
+
+Nas Redes Neurais Profundas, em geral, as redes deixam de ter estruturas totalmente conectadas (um neurônio se conecta a todos os neurônios da camada anterior). Em vez disso, cada neurônio passa a se conectar com um conjunto limitado de neurônios da camada anterior, restringindo a conexão entre neurônios a janelas limitadas (também conhecidas como filtros ou kernels). Camadas que utilizam esse tipo de mecanismo são chamadas de camadas de convolução. Tais camadas são definidas como um conjunto de filtros (kernels) que, por sua vez, são matrizes que definem uma determinada característica visual que se deseja detectar na imagem. As Redes Profundas têm também uma camada de Pooling, uma grade de unidades, que sumarizam de alguma forma as ativações dos neurônios com que se conectam.
+
+Impactos da Inteligência Artificial
+O uso da IA está mudando o cotidiano das pessoas e para um uso responsável dessas técnicas, fazem-se necessários estudos sobre impactos sociais e éticos da IA, assim como estudos sobre seus riscos, seus impactos, seus benefícios - evitando receios infundados e problemas reais.
+
+A IA pode gerar impactos bons e ruins. A IA pode evitar que o ser humano se exponha a tarefas perigosas, tarefas que já podem ser realizadas por máquinas. A IA pode eliminar a necessidade de tarefas automáticas serem executadas por humanos e, com isso, sobrar tempo para que os humanos lidem com tarefas mais instigantes e prazerosas.
+
+O uso da IA vem trazendo muitos benefícios, tais como: melhorias nos serviços de saúde; Processamento de Linguagem Natural: voz para texto, tradução; melhorias na educação; energia limpa e barata; detecção de fraudes; meios de transportes mais seguros (aplicativos de transporte), rápidos (rota otimizadas) e limpos.
+
+A IA também tem impactos negativos. Perda de vagas de trabalho é um desses impactos negativos. Vagas de empregos menos qualificados que aumentam as desigualdades sociais. Serão necessários planejamento e ações de governo para minimizar os impactos negativos da IA.
+
+Além das preocupações sociais, o uso de IA envolve inúmeras questões éticas e morais, entre elas: a possibilidade de uso de armas poderosas e automáticas, a invasão da nossa privacidade, a falta de transparência de como as nossas informações estão sendo utilizadas, a falta de explicações de como os sistemas de IA chegam as suas conclusões. Alguns desses problemas já estão sendo tratados mundialmente com os códigos de privacidade de dados, mas ainda estão longe de serem resolvidos.
+
+O Institute of Electrical and Electronic Engineers (IEEE), a Association for Computing Machinery (ACM), a Comunidade Comum Europeia, entre outros, já têm diretrizes para um uso responsável da IA (Hagendorff, 2020). No Brasil temos projetos de lei na câmara dos deputados (Projetos de Lei n.21/20 e 240/20, que remetem ao cumprimento da Lei Geral de Proteção de Dados (LGPD)) e outros no senado federal (Projetos de Lei n.5051/2019 e 5691/2019).
+
+Um aspecto legal que precisa ser resolvido é quem será responsabilizado pelos erros e acertos dos algoritmos de IA em sistemas críticos, como na utilização de carros autônomos. Serão os desenvolvedores ou os usuários dos sistemas?
+
+Desafios da Inteligência Artificial
+Tem havido um interesse crescente de pesquisadores e profissionais em desenvolver e implantar modelos e algoritmos de Aprendizado de Máquina que não são apenas precisos, mas são também explicáveis, justos, que preservam a privacidade, são causais e robustos. Essa ampla área de pesquisa é comumente referida como Aprendizado de Máquina Confiável.
+
+Os sistemas de IA precisam ser explicáveis porque as pessoas devem entender as soluções sugeridas pelos modelos. As explicações dos modelos de IA também servem para se descobrir possíveis erros no próprio modelo, por exemplo, talvez uma das variáveis utilizadas não esteja ajudando na solução ou até esteja atrapalhando. Algumas pesquisas estão sugerindo explicar os modelos complexos de IA pelo uso de modelos mais simples. Outras pesquisas estão usando Técnicas de Explicações Definidas a Posteriori (do inglês, Post Hoc Explanations Techniques), mas as explicações obtidas com essas soluções ainda não são confiáveis.
+
+Como mencionado anteriormente, parte do sucesso da IA é oriunda da quantidade de dados disponíveis atualmente e do poder computacional das máquinas modernas. Em relação à quantidade e complexidade dos dados, as máquinas precisam de uma quantidade muito maior de exemplos que os humanos para aprender. Não se sabe ainda quantos exemplos são necessários para a máquina aprender uma tarefa complexa. É também necessário reduzir a necessidade de tantos exemplos nos algoritmos de Aprendizado de Máquina porque com dados mais complexos, máquinas melhores serão necessárias. Por outro lado, os humanos aprendem também por correlação com o que já sabem para resolver novos problemas, um mecanismo semelhante a esse dos humanos precisa ser desenvolvido para as técnicas de IA.
+
+Na área de Processamento de Linguagem Natural, para reduzir o tempo de treinamento dos algoritmos, foram desenvolvidos sistemas pré-treinados, como Bert (Bidirectional Encoder Representations from Transformers) e GPT (Generative Pre-Training Transformer), que foram treinados com enormes conjuntos de dados de linguagem geral, como por exemplo o Corpus da Wikipédia, e podem ser ajustados para tarefas de linguagens específicas (Devlin et. al., 2019).
+
+Existem pesquisas que utilizam Aprendizado Autossupervisionado (do inglês, Self-Supervised Learning) para realizar o aprendizado com um menor número de exemplos (Ravanelli et. al, 2020).
+
+Além da necessidade de muitos exemplos no processo de treinamento, alguns exemplos das tarefas reais podem ser letais e a experiência, limitada e custosa. Não existem disponíveis bons simuladores da vida real para gerar dados de treinamento, e muitos conceitos de alto nível e o conhecimento sobre o mundo são fornecidos por seres humanos, que rotulam dados de treinamento que serão apresentados aos algoritmos de Aprendizado de Máquina. Os conjuntos de treinamento fornecidos aos algoritmos podem não ser uma boa representação do mundo real, e as amostras podem estar enviesadas. Por exemplo, um sistema pode ser desenvolvido para distinguir gatos de cachorros, mas no conjunto de treinamento apresentado ao algoritmo, todos os cachorros são pretos e todos os gatos são brancos, então o sistema pode aprender a distinguir preto de branco e não gato de cachorro. Nesses casos, é necessária a experiência dos humanos para descobrir e solucionar o problema.
+
+Outro aspecto relacionado aos dados é que muitos problemas reais são dinâmicos e dados são gerados continuamente, como por exemplo no gerenciamento de transportes e monitoramento por redes de sensores. Para resolver problemas dinâmicos são necessárias técnicas de aprendizado em ambientes dinâmicos de fluxos contínuos de dados (Gama, 2012).
+
+A resolução de problemas complexos utilizando técnicas de AM necessita do design automático, eficiente e correto do sistema. Escolhas eficientes de pré-processamento dos dados, seleção da família de algoritmos apropriados, escolha dos hiperparâmetros dos algoritmos, seleção de atributos e pós-processamento. Para uma maior aplicabilidade das técnicas de AM, a resolução dos problemas com AM precisa ser mais automática. Uma possibilidade é usar Meta-Aprendizado (Hospedales et al., 2020). No meta-aprendizado temos algoritmos que aprendem quais algoritmos e que valores de parâmetros devem ser utilizados para se alcançar bons desempenhos de forma automática.
+
+Um desafio importante de longo prazo é descobrir princípios simples e poderosos que expliquem a inteligência humana. Esses princípios simples e poderosos ajudarão na construção das máquinas inteligentes, da mesma forma que a descoberta das leis de aerodinâmica trouxe o avanço na aviação.
+
+Conclusões
+Máquinas estão bem longe de aprender a dominar muitos aspectos do nosso mundo, embora o sucesso da IA seja inegável e esteja impactando nossas vidas. As questões éticas e sociais oriundas do uso IA precisam ser avaliadas e resolvidas ao menos parcialmente em um curto espaço de tempo.
+
+A utilização e o desenvolvimento científico em IA têm oportunidades de pesquisa e trabalho em muitas áreas, não somente em Aprendizado de Máquina, mas em outras subáreas, como representação de conhecimento e tomada de decisão. Nos próximos anos haverá o aperfeiçoamento de muitas aplicações que já estão sendo resolvidas parcialmente, tais como: Análise de Sentimentos; personalização de ensino, saúde, lazer, investimentos; robôs domésticos, veículos autônomos; detecção de posicionamento; captura de ironia, humor, sarcasmo; interpretação de tom e intenção de fala.
+
+Referências
+CORTES, C.; VAPNIK, V. Support-vector networks. Machine Learning, v.20, p.273-97,1995. Disponível em: <https://doi.org/10.1007/BF00994018>.
+» https://doi.org/10.1007/BF00994018
+DEVLIN, J. et al. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805, 2019. Disponível em: <https://arxiv.org/abs/1810.04805>. Acesso em: 7. fev. 2021.
+» https://arxiv.org/abs/1810.04805
+FENG, S. et al. Intelligent driving intelligence test for autonomous vehicles with naturalistic and adversarial environment. Nat Commun, v.12, p.748, 2021. Disponível em: <https://doi.org/10.1038/s41467-021-21007-8>
+» https://doi.org/10.1038/s41467-021-21007-8
+GAMA, J. A survey on learning from data streams: current and future trends. Progress in Artificial Intelligence, v.1, n.1, p.45-55, 2012.
+HAGENDORFF, T. The Ethics of AI Ethics: An Evaluation of Guidelines. Minds & Machines, v.30, p.99-120, 2020. Disponível em: <https://doi.org/10.1007/s11023-020-09517-8>.
+» https://doi.org/10.1007/s11023-020-09517-8
+HOSPEDALES, T. et al. A. Meta-Learning in Neural Networks: A Survey. arXiv:2004.05439, 11 Abr. 2020. Disponível em: <https://arxiv.org/abs/2004.05439>. Acesso em: 7 fev. 2021.
+» https://arxiv.org/abs/2004.05439
+LECUN, Y. et al. Deep learning. Nature v.521, p.436-44, 2015.
+MCCULLOCH, W.S.; PITTS, W. A logical calculus of the ideas immanent in nervous activity. Bulletin of Mathematical Biophysics, v.5, p.115-33, 1943. Disponível em: <https://doi.org/10.1007/BF02478259>.
+» https://doi.org/10.1007/BF02478259
+MITCHELL, T. Machine Learning. S. l.: McGraw Hill, 1997.
+OTTER, D. W. et al. A survey of the usages of deep learning for natural language processing. IEEE Transactions on Neural Networks and Learning Systems, v.32, n.2, p.604-24, 2020. Disponível em: <https://doi.org/ DOI: 10.1109/tnnls.2020.2979670>.
+» https://doi.org/10.1109/tnnls.2020.2979670
+RAVANELLI, M. et al. Multi-task self-supervised learning for robust speech recognition. In: ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). Barcelona, 2020. p.6989-93.
+ROSENBLATT, F. The Perceptron - A perceiving and recognizing automaton. Report 85-460-1. Cornell Aeronautical Laboratory, November 1957.
+RUMELHART, D. E. et al. Learning representations by back-propagating errors. Nature, v.323, p.533-6, 1986.
+SARACCO, R. Congrats Xiaoyi. You are now a medical doctor. IEEE Future Directions. 2017. Disponível em: <https://cmte.ieee.org/futuredirections/2017/12/02/congrats-xiaoyi-you-are-now-a-medical-doctor/>. Acesso em: 7 fev. 2021.
+» https://cmte.ieee.org/futuredirections/2017/12/02/congrats-xiaoyi-you-are-now-a-medical-doctor
+TORFI, A. et al. Natural language processing advancements by deep learning: A survey. arXiv preprint arXiv:2003.01200 (2020). Acesso em: 16 fev. 2021.
+TURING, A. M. Computing Machinery and Intelligence. Mind, LIX, v.236, p.433-460, doi:10.1093/mind/LIX.236.433, ISSN 0026-4423, October 1950.
+» https://doi.org/10.1093/mind/LIX.236.433
+Notas
+A alma do imperador Justiniano fala ao Poeta. Narra-lhe a história do Império, de Enéias a César, a Tibério, a Tito, a Carlos Magno, para mostrar-lhe a santidade da autoridade imperial. Diz-lhe que no Céu de Mercúrio estão os espíritos daqueles que se esforçaram para conseguir fama imortal. Discorre-lhe acerca de Romeu, que administrou a corte de Raimundo Beranguer, conde de Provença.
+
+ 
+
+“DEPOIS que Constatino a Águia voltara
+Contra o curso do céu, que ela seguira
+3 Pós o herói, que Lavínia conquistara,
+
+“Duzentos anos já passados vira
+Da Europa em confins de Deus essa ave,
+6 Vizinha aos montes, donde se partira;
+
+“Das plumas sob a sombra ampla e suave,
+De mão em mão o mundo há dominado,
+9 Té comigo reger do Império a nave.
+
+“César, Justiniano fui chamado.
+Do Amor, que sinto, por querer movido,
+12 O supérfluo das leis hei cerceado.
+
+“Antes de ter a empresa cometido,
+Uma só natureza acreditava
+15 Ter Cristo e andava nessa fé perdido.
+
+“Mas de Agapeto santo que mandava
+De Roma Santa Igreja, a voz potente
+18 Levou-me à crença pura, que eu deixava.
+
+“O que então disse, eu vejo claramente,
+Pois, como vês, contradição implica
+21 Uma falsa asserção e outra evidente.
+
+“Quando eu cri no que a Igreja certifica,
+Minha mente, de Deus por alta graça,
+24 Logo à sublime empresa se dedica.
+
+“Belisário a reger as armas passa;
+No favor, que lhe deu poder divino
+27 Sinal vi que me ordena a paz se faça. —
+
+“A responder-te, o que ouves tem destino;
+Mais o que hei dito agora a tanto obriga,
+30 Que a mor explicação dar-te me inclino.
+
+“Verás que sem razão vontade imiga
+Move-se contra esse estardarte santo,
+33 Quando o tenta usurpar, quando o profliga.
+
+“Pelos fatos verás respeito quanto
+Mereceu desde a honra em que Palante
+36 Morreu por dar-lhe de sob’rano o manto.
+
+“Em Alba sabes como foi constante
+Por mais de anos trezentos té lutarem
+39 Três contra três por que ele fosse avante.
+
+“Sabes quanto ele fez por se curvarem
+Vizinhos desde o roubo das Sabinas
+42 Té Lucrécia expirar e os Reis findarem.
+
+“Sabes que glória teve nas mãos di’nas
+De heróis, que Breno e Pirro combateram,
+45 E de outros reis coligações mali’nas;
+
+“Décios, Fábios, Torquatos lhe deveram
+E Quíncio Cincinato, que amo e louvo
+48 A fama das vitórias, que tiveram;
+
+“Calcou o orgulho do Africano povo,
+Que por fraguras, donde, o Pó, te envias,
+51 Sob Aníbal, abriu caminho novo.
+
+“Fez triunfar da juventude em dias
+Cipião e Pompeu, e assaz desgosto
+54 Causou às tuas pátrias serranias.
+
+“Perto dos tempos, em que o céu disposto
+Havia, por seus fins, dar paz ao mundo.
+57 Em mãos de César Roma o teve posto.
+
+“O que ele fez do Var ao Rin profundo
+Isara há visto e o Era, há o Sena
+60 E esse vale, onde o Rone é sem segundo.
+
+“Passando o Rubicon, após Ravena,
+Com César a Águia tanto em vôo alçou-se,
+63 Que o não pôde seguir nem voz, nem pena.
+
+“Depois que para a Espanha remontou-se,
+A Durazzo e a Farsália acometia:
+66 Do efeito o ardente Nilo perturbou-se.
+
+“O Simoente e Antandro então revia,
+Seu berço, em que a de Heitor cinza descansa;
+69 E sem detença a Ptolomeu se envia.
+
+“Dali, qual raio, logo Juba alcança;
+Depois volve-se às terras do Ocidente,
+72 Onde os sons de Pompeu a tuba lança.
+
+“Nas mãos de outro o que fez essa ave ingente
+No inferno Bruto e Cássio estão sentindo,
+75 Sofrem Perúgia e Módena tremente.
+
+“Cleópatra inda vai triste carpindo
+Atroce morte, que da serpe toma,
+78 Da Águia os assaltos pávida fugindo.
+
+“Até o Roxo mar tudo a Águia toma,
+E ao mundo tão serena a paz se inclina,
+81 Que em fim de Jano as portas fecha Roma.
+
+“O que fez e faria a ave divina
+Para trazer à fama sua aumento
+84 Nesse império mortal, em que domina,
+
+“Parece escasso em seu merecimento,
+Quando em mãos de Tibério a contemplamos
+87 Com puro afeto e claro entendimento;
+
+“Pois que a viva justiça, que adoramos
+Lhe há nessas mãos a glória concedido
+90 De dar vingança às iras, que incitamos.
+
+“Sê, me ouvindo, de espanto possuído:
+Águia a vingança do pecado antigo
+93 Depois com Tito há por tornar corrido.
+
+“Quando, mordida por lombardo imigo,
+Gemia a Santa Igreja, à sombra da ave
+96 Salvou-a Carlos Magno do perigo.
+
+“Podes julgar, portanto, do erro grave
+Daqueles, cujas faltas hei notado,
+99 Causa do mal que vês quanto se agrave.
+
+“Contra o sacro estandarte um tem hasteado
+Áureo lírio, outro o quer por seu partido:
+102 Custa dizer qual seja o mais culpado.
+
+“Gibelinos, no iníquo andar sabido
+Outra bandeira sigam; que à justiça
+105 Culto esta exige nunca interrompido.
+
+“Carlos novo a batê-la em vão cobiça
+Com Guelfos; temas as garras, que arrancaram
+108 A mais forte leão juba inteiriça.
+
+“Mais de uma vez os filhos já choraram
+Pelas culpas do pai: é louca a esp’rança, —
+111 De que de Deus favor lírios ganharam.
+
+“O planeta, em que habito agora, estança
+É de almas generosas que honra e fama
+114 Aspiraram do mundo na lembrança.
+
+“Quando os desejos deste modo inflama
+O incentivo da glória, aos céus ascende
+117 Do vero amor menos ativa a chama.
+
+“Mas nossa dita em parte compreende
+Dos méritos e prêmio no confronto:
+120 Nem menor, nem maior nenhum se entende
+
+“Pois da viva justiça o feito pronto
+Tanto os afetos nos ameiga e apura,
+123 Que nequícia os não torce em nenhum ponto.
+
+“Vozes várias de sons formam doçura:
+Assim os vários graus na eterna vida
+126 Doce harmonia fazem nesta altura.
+
+“Nesta per’la, em que estás, bela e polida,
+Rebrilha de Romeu claro luzeiro,
+129 Virtude ínclita e mal agradecida.
+
+“Os provençais, pelo ato traiçoeiro,
+Não se riram; caminho segue errado
+132 Quem o bem de outro inveja sobranceiro.
+
+“Às filhas grato de rainha o estado
+Conseguiu Beranguer: tal bem devia
+135 A Romeu, nome humilde e não falado.
+
+“Preso na trama que a calúnia urdia,
+Que aumentado no quinto o erário havia;
+138 Do erário contas exigiu do justo,
+
+“Romeu partiu-se então pobre e vetusto:
+Se o mundo o coração lhe aquilatara,
+Quando, mendigo, se mantinha a custo,
+
+142 Louvor muito maior lhe dispensara.” —
+
+ 
+
+1-3. Depois que Constantino a Águia voltara etc., depois que Constantino transferiu o Império de Roma para Bizâncio. — 10. Justiniano, imperador romano e grande legislador, que reinou duzentos anos depois de Constantino, pois começou o seu reinado em 527. — 14. Uma só natureza etc., a doutrina de Eutíquio segundo a qual Cristo tinha só a natureza humana. — 16. Agapeto, o papa Agabito. — 25. Belisário, grande capitão que combateu na Itália contra os Godos. — 32. Esse estandarte sacro, o emblema do Império, que representava a águia. — 35. Palante, companheiro de Enéias, morreu combatendo contra Turno. — 37. Alba, cidade fundada por Ascânio, filho de Enéias. — 39. Três contra três, combatimento dos Horácios contra os Curiácios. — 41. O roubo das Sabinas, o rapto das mulheres dos Sabinos, efetuado pelos Romanos. — 42. Lucrécia, mulher de Colatino, foi violentada por Tarquinio, daí resultando a rebelião dos Romanos contra a monarquia. — 44. Breno e Pirro, o primeiro general dos Galos, o segundo rei do Épiro, que invadiram a Itália. — 46-47. Décios, pai, filho e neto morreram pela pátria; Fábios, ilustre família romana; Torquatos, T. Manlio Torquato; Quíncio, Q. Lúcio Cincinato. — 51. Aníbal, general cartaginês que invadiu a Itália. — 67. Simoente, rio perto de Tróia; Antadro, cidade da Frísia. — 73. Nas mãos do outro o que fez César, Augusto vingou a morte de César. — 76. Cleópatra, rainha do Egito, suicidou-se. — 93. Tito, destruiu Jerusalém, cujos habitantes tinham crucificado a Jesus Cristo. — 94. Lombardo imigo, Desidério, último rei longobardo que foi derrotado por Carlos Magno. — 101. Áureo lírio, as armas da Casa de França. — 106. Carlos novo, Carlos II de Anjou, chefe do partido guelfo. — 128. Romeu, segundo conta G. Villani, foi administrador de Raimundo Beranguer, conde de Provença, aumentando-lhe o patrimônio e conseguindo casar as filhas de Raimundo com quatro reis. Caluniado, não quis mais ficar na corte de Provença e, velho e pobre, desapareceu.
+
+ 
+
+ 
+CANTO VII
+ 
+
+Desaparecem os bem-aventurados cantando. Beatriz explica como a crucificação de Cristo restituiu ao homem a dignidade perdida, a liberdade que lhe foi conferida por Deus. Os anjos e os homens por sua natureza são livres e imortais. O homem porém, pecando, abusou da sua liberdade, e deformou a imagem de Deus que tinha em si. Não podia reparar a falta por si mesmo, pois não podia humilhar-se tanto quanto Adão, em seu orgulho, quis subir. A Deus convinha ou perdoar ou punir. Na sua sabedoria infinita, Deus perdoou e puniu no mesmo tempo. Puniu a humanidade em Jesus Cristo e nele a fez novamente livre.
+
+ 
+
+“HOSANNAH Sanctus Deus Sabaoth,
+Superillustrans daritate tua
+3 Felices ignes horum malacòth!”
+
+Assim, voltando à melodia sua,
+Cantar ouvi essa alma venturosa
+6 Em quem dúplice lume se acentua.
+
+Tornam todas à dança jubilosa,
+E súbito da vista se apartaram
+9 Velozes, como flama fulgurosa.
+
+Disse entre mim, pois dúvidas me entraram:
+“Fala à senhora tua, fala; à sede
+12 Rocio as palavras suas te deparam.”
+
+Torvação me assenhora e a voz me impede,
+Que apenas B com I C E conjugava:
+15 Acurvei, como quem ao sono cede.
+
+Mas Beatriz do enleio me tirava,
+Com sorriso, que a mente me ilumina
+18 E aditara entre as chamas começava:
+
+— “Como bem vejo, dúvida domina
+A tua alma: — a vingança, que foi justa,
+21 Punição teve, da justiça di’na?
+
+“Esclarecer-te o espírito não custa.
+Atende bem: verdade preminente
+24 Das vozes minhas co’a expressão se ajusta.
+
+“Aceitar não querendo, obediente,
+Saudável freio, o homem, sem mãe nado,
+27 Perdeu-se a si, perdeu a humana gente.
+
+“Muitos séc’los enferma do pecado,
+Jazeu ela não erro engrandecido
+30 Té que o Verbo de Deus fosse encarnado.
+
+“Por ato só do Eterno Amor, unido
+À natureza se há, que ao mal se dera,
+33 Depois de esquiva ao Criador ter sido.
+
+“No que vou te dizer bem considera.
+A natureza, a que se uniu beni’no
+36 Em pessoa, nasceu boa e sincera.
+
+“Por si mesma, fugindo em desatino
+Da vereda da vida e da verdade,
+39 Do Paraíso se exilou divino.
+
+“Da Cruz a pena, em face da maldade
+Da natureza, a que Jesus baixara,
+42 Foi a mais justa em sua gravidade.
+
+“Nunca injustiça igual se praticara,
+Atenta essa Pessoa, que há sofrido,
+45 Que à natureza humana se ajuntara.
+
+“Contrastes, pois, de um ato hão procedido:
+Folgam Judeus da morte a Deus jucunda,
+48 Foi ledo o céu e o mundo espavorido.
+
+“E não te mova sensação profunda
+Ouvir que uma vingança, que foi justa,
+51 Vingada ser devia por segunda.
+
+“Vejo-te a mente por vereda angusta
+Levada a estreito nó de dubiedade,
+54 Que solver mor esforço ora te custa.
+
+“Dirás: — discerne o que ouço, na verdade;
+Mas porque Deus nos desse está-me oculto,
+57 Remindo-nos tal prova de bondade. —
+
+“Este decreto irmão, está sepulto
+Aos olhos do que ainda o entendimento
+60 Não tem de Amor na flama ainda adulto.
+
+“É mistério em que luta o pensamento
+Sem fruto conseguir de tal porfia,
+63 Mas foi o melhor modo. Ouve-me atento!
+
+“A Divina Bondade que desvia
+De si o desamor, arde e flameja,
+66 Por eternais primores se anuncia.
+
+“Diretamente o que emanado seja
+Dela é sem fim; eterna impressão fica
+69 Do que no seu querer supremo esteja.
+
+“O que assim nasce, não sujeito fica
+Das causas secundárias à influência
+72 E liberdade plena significa.
+
+“Mais lhe apraz, se é conforme à sua essência:
+Que o santo Amor que em toda cousa brilha,
+75 Mais vivo é no que encerra esta excelência.
+
+“Aos homens de tais bens cabe a partilha:
+De tais predicados se um falece,
+78 Sua nobreza já decai, se humilha.
+
+“Só por pecado dessa altura desce;
+Do Sumo Bem não mais reflete o lume,
+81 Semelhança não mais dele oferece.
+
+“E o grau sublime seu não mais assume,
+Se não contrapuser ao do pecado
+84 Deleite mau das penas o azedume.
+
+“Quando o gênero humano, infeccionado
+Todo no germe seu, foi dessa alteza
+87 E do seu Paraíso deserdado,
+
+“Reaver só pudera (com certeza
+Verás, se bem cogitas), intervindo
+90 Um dos meios, que aponto por clareza:
+
+“Ou Deus, por graça infinda, remitindo;
+Ou — porque, de si mesmo, se convença —
+93 Das culpas suas o homem se remindo.
+
+“Para sondar a profundeza imensa
+Dos eternos conselhos, prende à mente
+96 As razões que o discurso meu dispensa.
+
+“O homem não podia, de indigente,
+As dívidas solver: nunca pudera
+99 Curvar-se tanto, humilde e reverente,
+
+“Quanto, rebelde, se elevar quisera.
+Eis por que redimir-se do pecado
+102 Só por si mesmo ao homem não coubera.
+
+“E, pois há sido do divino agrado,
+Por clemência ou justiça e ambas juntando,
+105 Ser ele à vida eterna aparelhado.
+
+“A feitura do Autor ao gosto estando
+Inda mais, quando a imagem nos of’rece
+108 Do peito, de quem vem piedoso e brando,
+
+“A Bondade que em tudo transparece,
+Em prol vosso os dois modos reunia:
+111 Um somente bastar-lhe não parece.
+
+“Entre a noite final e o primo dia
+Ato igual não se fez alto e formoso
+114 Desse modo por um, nem se faria.
+
+“Dando-se, há sido Deus mais generoso,
+Por que o home’ a se erguer se habilitasse,
+117 Do que só perdoando carinhoso.
+
+“Outro meio qualquer, que se empregasse
+Não bastara à Justiça, se humilhando
+120 De Deus o Filho à carne não baixasse.
+
+“Para de todo seres doutrinado
+Eu torno a um ponto, por que vejas claro,
+123 Como eu, o que zelosa hei te explicado.
+
+“Dizes: — no fogo e no ar, se bem reparo
+Na terra e nágua vejo e em seus compostos
+126 Corrupção que destrói sem anteparo.
+
+“Na criação por Deus foram dispostos:
+De corrupção isentos ser deveram,
+129 Certos sendo os princípios por ti postos. —
+
+“Criados, meu irmão, se consideram
+Os anjos e dos céus o que há no espaço,
+132 Inteiros, puros sempre quais nasceram.
+
+“Elementos e quanto no regaço
+Da natura por eles se combina
+135 De virtude criada of’recem traço.
+
+“Criou-lhes a matéria a lei divina,
+Criando logo a força informativa,
+138 Que nos astros, que os cercam, predomina.
+
+“Dos lumes santos moto e luz deriva
+Dos brutos alma, e plantas igualmente,
+141 Por compleição potencial passiva.
+
+“A vida nossa vem diretamente
+De Deus, Supremo Bem, que em nós acende
+144 Amor tal, que o deseja eternamente:
+
+“Daí, por dedução, também descende
+Vossa ressurreição, se ao ser e à essência
+Da humana carne o teu esp’rito atende,
+
+148 Quando o primeiro par teve existência.” —
+
+ 
+
+1-3. Hosannah, sanctus Deus Sabaoth, expressão constituída por palavras latinas e hebraicas: “Salve, Deus dos exércitos, que iluminas com a tua luz os felizes lumes deste reino.” — 18. E aditara, do verbo aditar, tornar feliz. — 26. O homem sem mãe nado, Adão. — 46-48. Contrastes, pois, de um ato procedido etc., a morte de Jesus Cristo deu satisfação a Deus, porque reparava a ofensa de Adão e deu satisfação aos Judeus pela raiva deles contra Jesus; a terra ficou espavorida pela crucificação de Deus e o Céu alegre porque se abria novamente à humanidade.
+
+ 
+
+ 
+CANTO VIII
+ 
+
+Dante e Beatriz elevam-se à estrela de Vênus, onde estão os espíritos daqueles que outrora foram propensos às paixões amorosas. Encontro com Carlos Martelo, o qual referindo-se à índole mesquinha de seu irmão Roberto, explica-lhe como se dá que de um bom pai possa nascer um filho mau e, enfim, quanto providencial é a Natureza nos seus decretos e quão vaidosos são os homens que não lhe seguem as indicações.
+
+ 
+
+O MUNDO com perigo verdadeiro
+Creu que Ciprina bela dardejava
+3 Louco amor do epiciclo que é terceiro.
+
+Sacrifícios não só lhe consagrava,
+Preces e votos essa antiga gente
+6 No erro antigo fatal, que a transviava,
+
+Mãe e filho adoravam juntamente,
+Dione e o seu Cupido, que fingiram
+9 De Dido reclinado ao seio ardente;
+
+Dessa falsa deidade o nome uniram
+Ao planeta, que o sol sempre namora,
+12 Quando raiam seus lumes, quando expiram.
+
+Como ao astro eu me alcei, a mente ignora,
+Mas certo fui de haver lá penetrado,
+15 Mais formosa por ver minha senhora.
+
+Como se vê fagulha em fogo ateado,
+Como uma voz é de outra discernida,
+18 Firme o som de uma, o de outra variado,
+
+Outros clarões notei na luz subida,
+Mais ou menos velozes se volvendo,
+21 Lá da eterna visão, creio, à medida.
+
+Ou visíveis ou não, ventos rompendo,
+Em rápida invasão, de nuve’ escura,
+24 Demorados stariam parecendo,
+
+A quem pudesse ver cada luz pura,
+Que ao nosso encontro vem deixando a dança
+27 Que marcam serafins dos céus na altura.
+
+Trás a grei, que primeiro nos alcança.
+Tão doce hosana soa, que, incessante,
+30 De inda ouvi-lo o desejo jamais cansa.
+
+Dos espíritos um, que vem diante
+Só principia: — “Todos nós queremos
+33 Quanto para aprazer-te for prestante.
+
+“Num só ardor e giro nos movemos
+Cos Príncipes, celestes esplendores
+36 De quem no mundo hás dito (bem sabemos):
+
+— “Vós, do terceiro céu sábios motores!” —
+Por te agradar nos é doce o repouso
+39 Tão vivos são do nosso amor fervores!” —
+
+De Beatriz ao gesto luminoso
+Depois que alcei os olhos reverente
+42 E certo fui do seu querer donoso,
+
+À luz, que se mostrou condescendente
+Em tanto grau — “Quem és” — falei, de afeito
+45 Estremecido possuída a mente.
+
+Ó das palavras minhas raro efeito!
+Maior a vi brilhar; nova delice
+48 A alegria aumentou do claro aspeito.
+
+— “Bem pouco o mundo” — a refulgir-me, disse —
+“Me teve; se algum tempo mais vivesse,
+51 Mal, que há de vir, por certo ninguém visse.
+
+“O júbilo que em torno me esclarece,
+Aos teus olhos me encobre, como inseto,
+54 Que dos seus véus de seda se guarnece.
+
+“Com razão me votaste o extremo afeto;
+Pois, em mais longa vida, eu te mostrava
+57 Por ações quanto me eras tu dileto.
+
+“Aquela região, que o Rone lava
+À sestra, quando ao Sorga corre unido,
+60 Por senhor seu um dia me esperava.
+
+“Como da Ausônia o litoral partido
+Por Bari, por Gaeta e por Crotona.
+63 Onde é do Tronto e Verde o mar nutrido.
+
+“Da c’roa a fronte minha já se entona
+Do vasto reino, que o Danúbio rega,
+66 Quando as plagas tudescas abandona.
+
+“Trinácria, a cujos céus névoa carrega
+Sobre o golfo, em que mais Euro embravece,
+69 De Paquino a Peloro, em mor refega,
+
+“Que não Tifeu, mas súlfur escurece,
+O trono guardaria à prole minha,
+72 Que de Carlo e Rodolfo antigos desce,
+
+“Se o mau jugo, que os povos amesquinha,
+A gritar — morra! morra! — não movesse
+75 Palermo, a quem temor não mais continha.
+
+“Se mais prudência meu irmão tivesse,
+Dos Catalanos a indigência avara
+78 Fugira, por que o mal seu não crescesse.
+
+“Urgente, na verdade, se tomara
+Que, por si ou por outrem, não deixasse
+81 Mais onerar a barca, que adernara.
+
+“Quando a índole nobre transtornasse
+Avareza, milícia ter devia,
+84 Que só de encher seus cofres não curasse.” —
+
+— “Como creio” — tornei-lhe — “a essa alegria,
+Que me infundes, Senhor, a origem tira
+87 De Deus que todo bem finda e inicia.
+
+“Comigo a sentes: mor prazer me inspira.
+Quanto me hás dito, me é no extremo caro,
+90 Pois vês, de Deus no espelho tendo a mira.
+
+“Ledo me hás feito; assim tornar-me claro
+O que por teu dizer stá duvidoso:
+93 Semente doce brota fruto amaro?” —
+
+— “Vendo a verdade” — disse — “pressuroso
+Darás o dorso ao que ora dás o rosto,
+96 Verás claro o que julgas tenebroso.
+
+“O Bem, que os céus, que sobes, há disposto,
+Os move e alegra, sem pôr providência
+99 Nestes corpos que vês virtude posto.
+
+“E não só com perfeita previdência
+Cousas terrestres acham-se ordenadas,
+102 Mas as preserva a sua onipotência;
+
+“Porque as setas, deste arco arremassadas,
+Predestinadas são a um ponto certo,
+105 Infalíveis ao alvo enderaçadas.
+
+“O céu aliás, aos olhos teus aberto,
+Só feituras sem arte produzidas
+108 Abrangera e ruínas no deserto.
+
+“Foram então de perfeição despidas
+As Substâncias, que regem as estrelas
+111 E a mão, que as fez assim destituídas.
+
+“Verdades são: mais claras queres vê-las?” —
+— “Não” — repliquei — “supor não poderia
+114 Natura escassa em suas obras belas.” —
+
+— “Um mal, dize-me, fora” — prosseguia —
+“Não ser o homem cidadão na terra?” —
+117 — “Por certo; e a razão sei” — lhe respondia.
+
+— “Sociedade haverá, se não encerra
+Misteres vários, que cada um pratica?
+120 Não, se o teu Mestre em seu pensar não erra.” —
+
+Deduzindo, a evidência significa,
+E logo concluiu: — “Causa dif’rente
+123 Efeito diferente sempre indica.
+
+“Nasce um Sólon, e Xerxe outro é furente,
+Melquisedeque ou Dédalo perito,
+126 Que no ar perdeu o filho seu demente.
+
+“Perfeito é o giro pelos céus descrito;
+Na cera humano o seu sinal fazendo,
+129 Mas solar não distingue, nem distrito.
+
+“Daí vem que Esaú, logo em nascendo,
+Difere de Jacó; toma Quirino
+132 Marte por genitor, seu pai vil sendo.
+
+“Natureza gerada, em seu destino
+Seria sempre igual à que a fizera,
+135 Se não vencesse o decretar divino.
+
+“O rosto ora diriges à luz vera;
+Mas inda um corolário te ofereço,
+138 Pois de agradar-te em mim desejo impera.
+
+“Sempre natura, se da sorte excesso
+A contraste, produz fruto danado,
+141 Como semente posta em solo avesso.
+
+“Se meditasse o mundo, desvelado,
+Nos fundamentos, que natura lança,
+144 De melhor gente fora povoado.
+
+“Mas quem próprio seria à militança
+Na soledade monacal definha,
+Bem pregara quem, Rei, em vão se cansa.
+
+148 E fora assim da estrada se caminha.” —
+
+ 
+
+2. Ciprina bela, Vênus. — 8. Dione, filha de Oceano e de Tétis, mãe de Vênus. — 9. De Dido reclinado ao seio ardente, no I Livro da Eneida, Cupido, sob a aparência de Ascânio, leva a Dido os presentes de Enéias. — 58 e seg. quem fala é Carlos Martelo, filho de Carlos II de Anjou e que Dante conheceu em Florença em 1294. — 61. Ausônia, a Itália. — 67. Trinácria, a Sicília. — 70. Tifeu, segundo a lenda o gigante Tifeu, sepultado na Sicília, expele fumo e caligem. — 72. De Carlo e Rodolfo, Carlos de Anjou e Rodolfo de Habsburgo. 74. A gritar — morra! morra! — não movesse Palermo, alusão às Vésperas Sicilianas. - 76. Meu irmão, Roberto de Anjou. — 120. O teu mestre, Aristóteles. — 131. Quirino Rómulo, fundador de Roma.
+
+imagem
+
+Por senhor seu um dia me esperava
+
+ 
+CANTO IX
+ 
+
+Depois de Carlos Martelo, fala a Dante, Cunizza de Romano, irmã do tirano Ezzelino. Prediz-lhe iminentes desventuras na Marca de Treviso e de Pádua, e uma negra traição do bispo de Feltre. Folco de Marselha manifesta-se a Dante e lhe indica a alma resplendecente de Raab, que favoreceu os hebreus na conquista da Terra Santa. Invectiva contra Florença e contra a Cúria Romana.
+
+ 
+
+DEPOIS que Carlos teu, bela Clemência
+Instruiu-me, narrou traições e enganos,
+3 Que ter devia a sua descendência;
+
+Mas disse: — “Cal’-te! Deixa o curso aos anos!” —
+Dizer só posso, pois, que justo pranto
+6 Há de vir por vingança aos vossos danos.
+
+E voltou-se de novo o lume santo
+Para o Sol que de júbilos o enchia,
+9 Sendo ele o Bem que para tudo, e tanto.
+
+Ah! mortais iludidos! raça impia,
+Que, em pensamentos fátuos se engolfando,
+12 Do Bem Supremo os corações desvia!
+
+Eis outro vi pra mim se encaminhando:
+De aprazer-me a vontade anunciava,
+15 O brilho da luz sua acrescentando.
+
+Os olhos Beatriz em mim fitava,
+Bem como de antes: grandioso assenso,
+18 Ao meu desejo claramente dava.
+
+— “Ó ser bendito, ao meu querer intenso
+Defere logo” — exclamo — “ e dá-me a prova
+21 De que em ti se reflete o que ora penso.” —
+
+A luz então, inda aos meus olhos nova,
+Dês que a vi lá na altura onde cantava
+24 Diz como quem cortês rogos aprova:
+
+— “Nessa parte da Itália opressa e escrava,
+Que situada entre o Rialto
+27 E as nascentes do Brenta e do Piava,
+
+“Colina vê-se que, não surge ao alto:
+Lá centelha, depois ígnea procela,
+30 Que a toda a região deu grande assalto.
+
+“De um só tronco brotamos eu com ela.
+Cunizza me chamei: aqui resplendo,
+33 Porque venceu-me a flama desta estrela.
+
+“Da sorte minha a causa não me sendo
+Desgosto, eu ma perdôo alegremente
+36 Talvez estranhe o vulgo o como entendo.
+
+“Da luz, que me está perto, refulgente,
+Amada jóia desta nossa esfera,
+39 Revive grande a fama, e permanente
+
+“De séc’los cinco mais será na era.
+Vê se homem com razão à glória aspira,
+42 Se extinta a vida, outra no mundo o espera!
+
+“A este alvo, porém, não levam mira
+Os que o Ádige cerca e o Tagliamento:
+45 Nem dos seus erros o infortúnio os tira.
+
+“Punido em breve, o povo truculento
+De Pádua o lago tingirá, que banha
+48 Co’as águas, de Vicência o fundamento;
+
+“Onde o Cagnan do Sile se acompanha
+Se trama o laço que fará cativo
+51 Quem mostra no perder soberba estranha.
+
+“Do ímpio Pastor procedimento esquivo
+Há-de Feltro chorar, tal ribaldia
+54 A Malta não levou nunca homem vivo.
+
+“De enormes dimensões tonel seria,
+Que o sangue recebesse de Ferrara,
+57 Pesá-lo o esforço humano esgotaria,
+
+“Em tal cópia o bom Padre o derramara
+Em preito ao seu partido! Os dons malvados
+60 Da terra sua a índole explicara.
+
+“Espelhos no alto (Tronos são chamados)
+A nós refletem quanto Deus indica:
+63 Crê, pois, ora nos fatos revelados.” —
+
+Calando-se Cunizza significa,
+Ao giro seu anterior voltando,
+66 Que em diverso cuidado imersa fica:
+
+Aquele, a que aludira, rebrilhando,
+Com preclaro esplendor, mostrou-se à vista.
+69 Como ao sol rubi fino flamejando.
+
+Alegria no céu fulgor aquista,
+Como a nossa no riso se declara;
+72 Mas os gestos no inferno a dor contrista.
+
+“Deus vê tudo, e o teu ver nele se aclara” —
+Falei — “ditoso espírito: patente
+75 Te é sempre quanto o seu querer depara.
+
+“Porque a voz tua, enlevo permanente
+Do céu, de anjos no canto a sócia sendo,
+78 Que em seis asas têm veste resplendente,
+
+“Não satisfaz desejos, em que ardendo
+Estou? Falara, sem mais ser rogado,
+81 Se eu visse em ti bem como em mim stás vendo.” —
+
+— “O maior vale de águas inundado”
+— Desta arte a responder-me começava —
+84 “Do mar, em torno à terra derramando,
+
+“Opostas plagas, se estendendo, lava
+Contra o sol, e assim faz meridiano
+87 Esse horizonte, em que primeiro estava.
+
+“Nessa parte do val mediterrano
+Nasci, entre Ebro e Macra, que separa
+90 Do domínio de Gênova o Toscano.
+
+“Quase um meridiano se depara
+Para Bugia e o ninho meu querido:
+93 Sangue dos seus seu porto avermelhara.
+
+“Chamei-me Folco e assim fui conhecido:
+Este céu da luz minha é penetrado
+96 Como eu fora da sua possuído;
+
+“Pois Dido, que ciúmes há causado
+A Creusa e a Siquei, não mais ardera
+99 Do que eu, enquanto à idade me foi dado;
+
+“Nem Rodópea infeliz, a quem perdera
+Demofonte; nem Hércules outrora,
+102 Que o coração a Iole oferecera.
+
+“Não há remorso aqui; folga-se agora,
+Não pela culpa, já no esquecimento,
+105 Pela Virtude, cuja lei se adora.
+
+“Arte aqui se contempla, em que portento
+Tão alto brilha; e o Bem se patenteia,
+108 Que influir faz na terra o firmamento.
+
+“Para ser a medida toda cheia
+Dos teus desejos, nados nesta esfera,
+111 Do meu discurso inda prossegue a teia.
+
+“Ora queres saber a luz quem era,
+Que aí perto de mim tanto cintila,
+114 Como o sol, que na linfa reverbera.
+
+“Sabe, pois, que ali vês leda e tranqüila
+Raab: à nossa ordem reunida
+117 Em grau superior clara rutila.
+
+“Foi neste céu, que a sombra procedida
+Da terra não alcança, em triunfando
+120 Jesus Cristo, a primeira recebida.
+
+“Devia dar-lhe um céu por palma, quando
+Assinalar lhe aprouve a alta vitória,
+123 Que na Cruz teve, as palmas entregando;
+
+“Pois que por ela começara a glória,
+Que colheu Josué na Terra Santa,
+126 Que se apagou do Papa na memória.
+
+“A tua pátria, que foi daquele a planta,
+Que ao Criador revel primeiro há sido
+129 E causou pela inveja aflição tanta,
+
+“Tem flor maldiçoada produzido,
+Que, ovelhas e cordeiros transviando,
+132 Traz o pastor em lobo convertido.
+
+“O Evangelho, por ela, abandonado
+E os Doutores, às páginas usadas
+135 Das Decretais stão muitos se aplicando.
+
+“O Papa e os Cardeais, nisto engolfadas
+Tendo as idéias, Nazaré esquecem,
+138 Que viu do Arcanjo as asas desdobradas.
+
+“Mas Vaticano e os sítios que enobrecem
+A Roma e têm sido o cemitério
+Dos que, fiéis a Pedro, lhe obedecem,
+
+142 Livres serão em breve do adultério.” —
+
+ 
+
+25-28. Nessa parte, etc., a Marca Trevisana. — 26. Rialto, Veneza — 28. Colina, onde está situado o castelo da família de Ezzelino de Romano. — 32. Cunizza, irmã de Ezzelino III, mulher de fama duvidosa pela sua vida livre, morta em Florença, onde talvez se penitenciou. — 37. Da luz etc., é a alma de Folco de Marselha, trovador e poeta. — 44. Os que etc., os habitantes da Marca Trevisana. — 51. Quem mostra no perder etc., Ricardo de Camino, senhor de Treviso, que foi morto traiçoeiramente pelos seus inimigos. — 52-54. Do ímpio Pastor etc., Alexandre Novello, bispo de Feltre entregou ao Papa, em 1314, vários gibelinos de Ferrara, que foram condenados à morte. — 67. Aquele, Folco. — 88-89. Nessa parte etc., Marselha onde Folco morou. — 97. Dido, rainha de Cartago, amando Enéias, ofendeu a Creusa, mulher de Enéias e ao seu marido Siqueu. — 100. Rodópea, matou-se ao ser abandonada por Demofonte. — 102. Iole, amante de Hércules, que, por ciúme, foi morto, por Dejanira. — 116. Raab, meretriz de Jericó, escondeu os espiões que Josué havia mandado a Jericó, facilitando a queda da cidade e, por isso, foi salva da morte, depois da vitória dos hebreus. — 118. Neste céu etc., segundo Tolomeu a sombra da Terra se projetava até o limite de Vênus. — 126. Que se apagou do Papa na memória, o Papa não se interessa pela Terra Santa, que está sob o domínio dos Sarracenos. — 127. A tua pátria etc., Florença teve origem demoníaca. — 130. Flor maldiçoada, o dinheiro, o florim de ouro de Florença. — 135. Decretais, os livros das leis canônicas, que asseguravam vantagens aos eclesiásticos.
+
+ 
+
+ 
+CANTO X
+ 
+
+Depois de admirar a infinita sabedoria de Deus na criação do Universo, narra o Poeta como sem aperceber-se achou-se elevado ao Sol, em que estão as almas dos doutos na teologia. Doze espíritos mais reluzentes o circundam e um deles, S. Tomás de Aquino, revela o nome dos seus companheiros.
+
+ 
+
+O PODER inefável e primeiro,
+O Filho a contemplar co’ Amor sublime,
+3 De um e outro, eternal, vindo o terceiro,
+
+Quanto à vista e à razão nossa se exprime
+Com tal ordem criou, que, o efeito vendo,
+6 De adorar seu Autor ninguém se exime.
+
+As esferas, leitor, olhos erguendo
+Nota a parte, onde estão dois movimentos
+9 Um para o outro oposição fazendo.
+
+E começa a mirar de arte os portentos,
+Que tanto dentro em si o senhor ama,
+12 Que lhes tem sempre os olhos seus atentos.
+
+Vê como desse ponto se derrama
+Em linha oblíqua, o círc’lo, que transporta
+15 Os planetas que o mundo aguarda e chama.
+
+Se lhes assim, não fosse a estrada torta,
+Muita força no céu fora perdida
+18 E aqui potência quase toda morta.
+
+Se fora essa vereda preterida
+Mais ou menos, ficara transtornada
+21 A ordem no universo estatuída.
+
+Ora leitor, meditação pausada
+Faz de quanto comigo prelibaste:
+24 Leda a mente hás de ter, não saciada.
+
+Dou-te iguaria: come, pois, se praz-te.
+A matéria, em que escrevo, não consente,
+27 Nem por instantes, que a atenção se afaste.
+
+Da natura o ministro mais potente
+Que a influência do céu na terra imprime
+30 E o tempo mede com sua luz fulgente,
+
+À parte, que outro verso acima exprime,
+Se unindo, para o ponto se volvia,
+33 Onde mais cedo as trevas nos dirime.
+
+Já no seu seio estava e o não sabia,
+Como não pode alguém seu pensamento
+36 Saber, quando inda à mente não surgia.
+
+E Beatriz, em quem notava aumento
+De bem para melhor, tão de repente,
+39 Que o tempo fora ante o seu ato lento,
+
+De si mesma quanto era refulgente!
+O que era lá no sol onde eu me entrara,
+42 Não por cor, por seu brilho mais nitente,
+
+Posto que arte, uso, engenho me ajudara
+Descrever por imagens não pudera;
+45 Mas crer se pode e ver-se desejara.
+
+Não se estranhe, se baixa parecera,
+Querendo a tanto alar-se, a fantasia;
+48 Além do sol ninguém olhos erguera.
+
+Quarta família aqui resplandecia
+Do Sumo Pai, que sempre da Trindade
+51 No inefável spetáculo a sacia.
+
+E disse Beatriz: — “Tanta Bondade
+Humilde ao Sol dos anjos agradece,
+54 Que ao sol sensível te alça à claridade.” —
+
+Peito mortal jamais ardor aquece
+De sentir tão devoto e tão piedoso,
+57 Que a Deus a gratidão inteira expresse,
+
+Quanto é meu ao convite carinhoso.
+E em tanto enlevo o coração se acende,
+60 Que a Beatriz olvida, fervoroso.
+
+Não lhe despraz, e no seu riso esplende
+Tanto brilho dos olhos expressivos,
+63 Que do êxtase profundo me desprende.
+
+Fulgores então vi claros e vivos,
+De nós centro de si c’roa fazendo,
+66 Mais suaves em voz que em luz ativos.
+
+A filha de Latona se movendo
+Vemos assim de um cinto rodeada,
+69 No ar úmido as cores, se mantendo.
+
+Dos céus a corte, donde volto, ornada
+De jóias stá sublimes e formosas:
+72 Só nos céus pode a estima lhes ser dada.
+
+As vozes eram tais, que ouvi donosas.
+Quem não tem plumas para ir lá voando
+75 Pergunte a um mudo cousas portentosas.
+
+Aqueles sóis, em torno a nós cantando,
+Volveram-se três vezes: semelharam
+78 Astros em roda aos pólos circulando.
+
+Damas imitam, que no baile param,
+Em silêncio outras notas esperando
+81 Para seguir na dança que encetaram.
+
+E uma voz do seu seio disse: — “Quando
+Da Graça o raio em que o amor se acende
+84 Sublime, pelo amor se acrescentando,
+
+“Multiplicado em ti tanto resplende,
+Que te conduz pela celeste escada,
+87 Que a subir torna quem de lá descende,
+
+“O que à sede em que tens a alma abrasada
+Vinho negasse, irmão, livre não fora,
+90 Qual linfa de correr embaraçada.
+
+“Saber desejas como a c’roa enflora,
+Que cinge, contemplando-a a pulcra Dama,
+93 Que para o céu te guia protetora.
+
+“Um anho fui da santa grei que chama
+De Domingos a voz pelo caminho,
+96 Onde prospera só quem mal não trama.
+
+“Tomás de Aquino sou; me está vizinho,
+À destra de Colônia o grande Alberto
+99 A quem de aluno e irmão devo o carinho.
+
+“Se dos mais todos ser desejas certo,
+Na santa c’roa atenta cuidadoso,
+102 A tua vista a voz siga-me perto.
+
+“Nesse esplendor sorri-se jubiloso
+Graciano que num e noutro foro
+105 Di’no se fez de ser no céu ditoso.
+
+“Aquele outro ornamento deste coro
+Foi Pedro: como a pobre a of’renda escassa,
+108 À Santa Igreja deu rico tesouro.
+
+“A quinta luz, que as mais em lustro passa
+Se acende em tanta luz, que anela o mundo
+111 Saber se goza da celeste Graça.
+
+“O alto esp’rito encerra, tão profundo,
+Que se o Verbo de Deus é verdadeiro,
+114 De saber tanto não se alçou segundo.
+
+“Ao lado seu lampeja esse luzeiro,
+Que os anjos, seu mister, sua natura
+117 Em conhecer na terra foi primeiro.
+
+“Sorri na luz menor, serena e pura,
+Dos séculos cristãos esse advogado
+120 De Agostinho tão útil à escritura.
+
+“Se os olhos da tua mente acompanhado
+De luz em luz me tens nestes louvores
+123 Saber já tens da oitava desejado.
+
+“Do Sumo Bem se enleva nos fulgores
+Essa alma santa, havendo demonstrado
+126 As mentiras do mundo e os seus rigores;
+
+“Jaz daquela alma o corpo despojado
+Em Cieldauro; e ela veio à paz divina
+129 Após martírio e exílio amargurado.
+
+“Mais longe, em cada flama purpurina,
+Beda, Isidoro estão, Ricardo esplende,
+132 Que além do humano o pensamento afina.
+
+“Esse, de quem tua vista se desprende
+A mim tornando, achou, grave e prudente,
+135 Que morte pronta um grande bem compreende:
+
+“É Siger, que assim luz eternamente.
+Na rua de Fouare lera outrora
+138 Verdades, que ódio hão provocado ingente.” —
+
+E qual relógio, que nos chama em hora,
+Em que, desperta, do Senhor a Esposa
+141 Matinas canta e o seu amor implora;
+
+Que, no girar das rodas, tão donosa
+Nota faz retinir, de amor enchendo
+144 Devota alma, que o escuta fervorosa;
+
+O glorioso círc’lo, se movendo,
+Assim vi eu, com tal suavidade
+E doçura de vozes, que comprendo
+
+148 Só haja iguais do céu na eternidade.
+
+ 
+
+49. Quarta família, as almas que estão no Sol, que é o quarto Céu. — 67. A filha de Latona, Diana ou a lua. — 97. Tomás de Aquino, Santo teólogo (1225-1274). — 98. De Colônia o grande Alberto, o célebre teólogo Alberto Magno. — 104. Graciano, de Chiusi, em Toscana, escreveu no século XII um volume de Cânones eclesiásticos, que foi chamado o Decreto de Graciano. — 107. Pedro, Pedro Lombardo, bispo de Paris, morto em 1164 que, ao oferecer à Igreja o seu livro “Sentenciaram” comparava-se à viúva do Evangelho de S. Lucas, XXI. — 109. A quinta luz, o sapiente rei Salomão, filho de Davi. — 115-117. Esse luzeiro etc. Dionísio Aereopagita, que escreveu uma obra “De Coelesti Hierarchia.” — 119-120. Esse advogado etc., Paulo Orósio, que, aconselhado por Santo Agostinho, escreveu a História, em defesa da religião cristã. — 125-128. Essa alma santa etc. Severino Boécio, autor do livro “De consolatione philosophiae”, aprisionado e, depois, morto por Teodorico em 524. — 131. Beda, bispo inglês, Ricardo, padre de Escócia, Isidoro, S. Isidoro de Sevilha, os três doutos teólogos. — 136. Siger de Brabante, professor de teologia na Universidade de Paris no século XIII, a qual tinha a sua sede na Rua Fouare.
+
+ 
+
+ 
+CANTO XI
+ 
+
+Dante elogia a vida contemplativa. — As palavras proferidas no canto anterior por S. Tomás criam duas dúvidas no ânimo do poeta. O santo, tratando de resolver a primeira, esboça a vida de S. Francisco de Assis.
+
+ 
+
+Ó DOS mortais aspirações erradas!
+Em que falsas razões vos enlevando
+3 Tendes à terra as asas cativadas!
+
+Qual seguia o direito; qual buscando
+Já aforismos; qual o sacerdócio;
+6 Qual reinava, sofisma ou força usando;
+
+Qual roubo amava, qual civil negócio;
+Qual, a salaz deleite entregue a vida,
+9 Afanava-se; qual passava no ócio;
+
+Enquanto eu, livre da terrena lida,
+Ao céu com Beatriz me alevantava,
+12 Aceito lá com glória tão subida.
+
+Cada alma santa ao ponto já tornava
+Do círculo em que de antes demorara;
+15 E como círio em candelabro estava.
+
+Então da luz, que de antes me falara
+Voz suave escutei; e assim dizendo
+18 Do seu brilho a pureza se aumentara:
+
+— “O lume eterno, em que me inspiro e acendo,
+Eu, contemplando, claramente leio
+21 Teu pensamento e a origem lhe compreendo.
+
+“Desejas tu, da dúvida no enleio,
+Que eu aproprie da tua mente à esfera
+24 O que dizer-te, há pouco, me conveio.
+
+“Eu te disse — caminho onde prospera —
+— De saber tanto não se alçou segundo: —
+27 Aqui é, pois, que a explicação te espera.
+
+“A Providência, que governa o mundo
+Com tão sábio conselho, que, torvada
+30 Sente a vista quem quer sondar-lhe o fundo.
+
+“Por ser ao seu dileto encaminhada
+Casta Esposa daquele, que alto grito,
+33 Desposando-a, soltou na Cruz Sagrada,
+
+“Com ânimo mais forte e à fé restrito,
+Dois príncipes, lhe deu, que, em seu desvelo,
+36 O caminho mostrassem-lhe bendito.
+
+“Um seráfico foi no ardor do zelo,
+Outro ostentou, por seu saber na terra,
+39 De querúbica luz esplendor belo.
+
+“De um só te falarei; pois num se encerra
+O que de outros aos louvores mais se estende:
+42 Quem der aos dois o mesmo fim não erra.
+
+“Entre Tupino e o rio, que descende
+Do outeiro, que escolhera santo Ubaldo,
+45 Fértil encosta de alto monte pende.
+
+“Dali baixa a Perúgia o frio e o caldo
+Pela porta do Sol; atrás padece
+48 Em duro jugo Nócera com Gualdo.
+
+“Onde o declive menos agro desce
+Nasceu ao mundo um sol tão luminoso,
+51 Como o que ao Gange às vezes esclarece.
+
+“Desse lugar quem fale portentoso
+Não diga Assis, que pouco declarara:
+54 Chame Oriente o berço glorioso.
+
+“Do nascente este sol pouco distara,
+Quando o conforto a receber a terra
+57 Já das virtudes suas começara.
+
+“Contra seu pai, adolescente, em guerra
+Entrou por dama, a quem bem como à morte,
+60 Ninguém a porta com prazer descerra.
+
+“Então da Igreja a recebeu na corte,
+E coram patre, por esposa amada
+63 E amor votou-lhe cada vez mais forte.
+
+“Vivera ela viúva e desprezada
+Séculos onze e mais, e de outro amante,
+66 Senão deste, não fora requestada;
+
+“Em vão se disse que no lar, constante,
+De Amiclas a encontrou esse guerreiro,
+69 De quem tremera o mundo titubante;
+
+“Em vão fiel, de coração inteiro,
+Quando Maria ao pé da Cruz ficara,
+72 Com Cristo ela subira-se ao madeiro.
+
+“Para fazer minha linguagem clara,
+Em suma, o nome sabe dos amantes:
+75 Com pobreza Francisco se casara.
+
+“Dos dois santa união, ledos semblantes,
+Seu terno olhar e afeito milagroso
+78 Dão a todos lições edificantes.
+
+“Aquela paz anela cobiçoso
+Venerável Bernardo que, primeiro,
+81 Descalço corre e crê ser vagaroso.
+
+“Riqueza inota! Ó Bem só verdadeiro!
+Descalço vai Egídio, vai Silvestre,
+84 Porque amam-na, do esposo no carreiro.
+
+“Dali se parte aquele pai e mestre
+Com terna esposa e com família santa
+87 Que de corda o burel cinge campestre.
+
+“Não baixa os olhos, nem se torna e espanta
+Por filho ser de Bernardone obscuro,
+90 Nem por sofrer desdém em cópia tanta.
+
+“Mas afouto mostrou o intento duro
+A Inocêncio de quem primeiro obteve
+93 Assenso ao regimento austero e puro.
+
+“E quando a pobre grei progresso teve,
+Após aquele, a cuja heróica vida
+96 Melhor no céu louvor de anjos se deve,
+
+“Foi a c’roa segunda concedida
+Por Honório, que o Santo Espírito alenta
+99 Daquele arquimandrita a santa lida.
+
+“Em breve a sede do martírio o tenta,
+E do Soldão soberbo na presença
+102 Cristo anuncia e a lei que o representa.
+
+“Vendo rebelde o povo à nova crença.
+Por não ficar seu zelo sem proveito
+105 Da Itália volta para a messe extensa.
+
+“Na dura penha, que se interpõe ao leito
+Do Tibre e do Arno, o derradeiro selo
+108 Cristo lhe pôs: dois anos dura o efeito.
+
+Quando a Deus, que a bem tanto quis movê-lo,
+O prêmio prouve dar-lhe merecido,
+111 Na humildade cristã por seu desvelo,
+
+“Essa esposa, que amara estremecido,
+Aos irmãos confiou por justa herança,
+114 Para afeto lhe terem sempre fido.
+
+“Do seio da pobreza então se lança,
+Tornando ao reino seu, a alma preclara:
+117 Nesse jazigo o corpo seu descansa.
+
+“Pensa, pois, o que foi quem Deus julgara
+Di’no após ele, de reger a barca
+120 Que Pedro, no alto mar encaminhara.
+
+“Coube a tarefa ao nosso patriarca:
+Quem, fiel, aos preceitos lhe obedece,
+123 Sabe tesouros arrecadar na arca.
+
+“Sua grei novo pascigo apetece,
+E tanto é dos desejos impelida,
+126 Que em diferentes campos aparece.
+
+“Quanto mais cada ovelha é seduzida
+Do mundo pelo pérfido atrativo,
+129 Tanto mais ao redil volta inanida.
+
+“Poucas temendo o lance decisivo,
+Acolhem-se ao pastor: escasso pano
+132 É já para vesti-las excessivo.
+
+“Se claro te falei, livre de engano,
+Se tens estado ao que te digo atento,
+135 Se da memória não receias dano,
+
+“Ao teu desejo, em parte, dei contento,
+Pois da planta bem vês qual seja a rama;
+E o corretivo está neste argumento:
+
+139 Onde prospera só quem mal não trama.”
+
+ 
+
+25. Eu te disse etc. V. Canto X, v. 95-96 e 114. — 37. Um seráfico etc., S. Francisco de Assis. — 38. Outro ostentou etc., São Domingos. — 43-48. Entre Tupino etc., descreve a situação geográfica da cidade de Assis, na qual S. Francisco nasceu. — 59. Dama a quem etc., a pobreza. — 64-66. Viúva e desprezada etc., o primeiro esposo da Pobreza foi Jesus e, por isso, ficou viúva mais de onze séculos. — 68. Amiclas, Júlio César ficou admirado pela alegre pobreza do pescador Amiclas (V. Lucano, Farsálias V, 519). — 80. Bernardo, primeiro companheiro de S. Francisco. — 83. Egídio e Silvestre, companheiros de S. Francisco. — 89. Bernardone, Pietro Bernardone, pai de S. Francisco. — 92. Inocêncio III, papa que deu autorização à Ordem Franciscana, em 1214. — 98. Honório III, que em 1223, pela segunda vez, aprovou a Ordem de S. Francisco. — 99. Arquimandrita, pastor. — 100-105. Em breve etc., S. Francisco em 1219 esteve no Egito tentando converter os infiéis, mas voltou logo para a Itália. — 106-108. Na dura penha etc., no monte Alvérnia, no Casentino, S. Francisco recebeu os estigmas de Jesus crucificado e os manteve dois anos, pois depois de dois anos morreu.
+
+ 
+
+ 
+CANTO XII
+ 
+
+Acabando S. Tomás de falar, ajunta-se à primeira coroa de doze espíritos resplendentes, mais uma coroa de igual número de espíritos. Um destes, S. Boaventura, franciscano, tece louvores a S. Domingos. Depois dá notícia acerca dos seus companheiros.
+
+ 
+
+QUANDO o lume bendito proferira
+Do discurso a palavra derradeira,
+3 A coréia, como eu já a vira,
+
+Inda uma volta não fizera inteira,
+Logo outra turma em círculo a encerrava
+6 Em voz acordes ambas e em carreira.
+
+Essa harmonia tanto superava
+Das Musas e sereias a cadência,
+9 Quanto ao reflexo a luz que rutilava.
+
+Como arcos dois das nuvens na aparência
+Curvam-se iguais na cor e equidistantes,
+12 Se de Íris Juno exige diligência,
+
+Nascendo um do outro, em forma semelhantes,
+Qual voz da que de amor foi consumida
+15 Como do sol as névoas alvejantes,
+
+E crer fazendo que há de ser mantida
+A promessa, a Noé por Deus firmada,
+18 De não ser mais a terra submergida:
+
+Assim de nós em torno ia agitada
+Cada grinalda das perpétuas rosas,
+21 Uma com outra em tudo conformada.
+
+Tanto que a dança e festa jubilosas,
+Por cantos e esplendores flamejantes
+24 Dessas luzes suaves e amorosas,
+
+Quedar eu vi nas rotações brilhantes,
+Quais olhos, juntamente ao nosso grado,
+27 Se abrindo e se fechando vigilantes,
+
+De um dos novos clarões voz, que, enlevado,
+Volver-me para si fez de repente,
+30 Qual à estrela polar ímã voltado:
+
+— “Amor” — diz — “que a beleza dá-me ingente
+Me induz a te falar do Mestre Santo,
+33 Que ao meu foi de louvor causa eminente.
+
+“Um se memore onde outro bilha tanto:
+Sob a mesma bandeira hão militado;
+36 Brilha a glória dos dois também no canto.
+
+De Cristo, a tanto custo restaurado,
+O exército o estandarte seu seguia,
+39 Já raro, lento, de temor tomado,
+
+“Quando à milícia, que o valor perdia
+O Eterno Imperador deu provimento,
+42 Só por Graça: esse bem não merecia;
+
+“E da Esposa enviou por salvamento
+Dois campeões, de cuja voz movida,
+45 A transviada gente cobra o alento.
+
+“Na terra, em que, ao seu hábito, convida
+O Zéfiro a se abrirem novas flores,
+48 De que se vê a Europa revestida,
+
+“Em plaga, onde se embate em seus furores
+O mar, em que, o seu curso terminado,
+51 O sol esconde às vezes seus ardores,
+
+“Jaz Calaroga em solo afortunado,
+Que o poderoso escudo protegera,
+54 No qual leão subjuga e é subjugado.
+
+“Ali o atleta heróico à luz viera,
+Da fé cristã esse indefesso amante,
+57 Que, aos seus beni’no, aos maus guerra fizera.
+
+“Foi virtude em sua alma tão possante,
+Que, ainda estando no materno seio,
+60 Do porvir fez a mãe vaticinante.
+
+“Quando a firmar-se o desposório veio
+Entre ele e a Fé, na fonte consagrada,
+63 De muita salvação seguro meio,
+
+“De dar pôr ele o assento a encarregada
+A messe viu em sonhos milagrosa,
+66 Que dele e herdeiros seus era esparada.
+
+“Do seu destino em prova portentosa,
+Anjo baixou ao fim só de chamá-lo
+69 Do Senhor de quem era a alma piedosa.
+
+“Domínico foi dito e eu dele falo,
+Como o operário, que elegera Cristo,
+72 Da vinha no lavor para ajudá-lo.
+
+“Servo e enviado mostrou ser de Cristo
+Por quanto o amor primeiro, que há mostrado,
+75 Foi a primeira lei que nos deu Cristo.
+
+“Muitas vezes a mãe o achou prostrado,
+Em profundo silêncio e bem desperto,
+78 Como a dizer: — A isto eu fui mandado.
+
+“Oh! foi seu genitor feliz por certo!
+Oh! sua mãe realmente foi Joana
+81 Se há no sentido que lhe dão, acerto!
+
+“Não pelo amor do mundo, que se engana,
+Do Ostiense e Tadeu nos livros lendo,
+84 Mas de Jesus pelo maná se afana,
+
+“Sapiente doutor em breve sendo,
+Da santa vinha guarda vigilante,
+87 Que presto seca, pouco zelo havendo.
+
+“De Roma à sede quando foi perante,
+Que aos justos era compassiva outrora,
+90 Hoje, por culpa do que a rege, errante,
+
+“Onzenárias dispensas não lhe implora,
+Nem primeira prebenda, que vagasse,
+93 Nem dízimas, que são do pobre, exora.
+
+“Mas contra o mundo, que no qual compraz-se,
+Pede o favor de defender a planta,
+96 Da qual tens flores vinte e quatro em face.
+
+“Com seu querer e com doutrina santa,
+Como a torrente, que da altura desce,
+99 De apóstolo por zelo o mundo espanta.
+
+“Dos hereges se arroja à infanda messe,
+E onde a resistência mais porfia
+102 Das forças suas o ímpeto recresce.
+
+Dele brotaram rios, que hoje em dia
+Têm o jardim católico regadoAll alone she was living
+In a world without an end or beginning
+Baby girl was living life for the feeling
+But I don't mind, I don't mind
+And all the wrongs she committed
+She was numb and she was so co-dependent
+She was young and all she had was the city
+But I don't mind, I don't mind
+
+And I know that she's capable of anything, it's riveting
+But when you wake up she's always gone, gone, gone
+
+In the night she hears them calling
+In the night she's dancing to relieve the pain
+But she'll never walk away (I don't think you understand)
+In the night when she comes crawling
+Dollar bills and tears keep falling down her face
+She'll never walk away (I don't think you understand)
+
+He sang a song when he did it
+He was cold and he was so unforgiving
+Now she dances to the song on the minute
+Yeah, all the time, all the time
+It made her weak when she hear it
+And it got her on her knees like religion
+She was young and she was forced to be a woman
+Yeah, all the time, all the time
+
+And I know that she's capable of anything, it's riveting
+But when you wake up she's always gone, gone, gone
+
+In the night she hears him calling
+In the night she's dancing to relieve the pain
+But she'll never walk away (I don't think you understand)
+In the night when she comes crawling
+Dollar bills and tears keep falling down her face
+She'll never walk away (I don't think you understand, oh, babe)
+
+(I don't think you understand)
+(I don't think you understand)
+(I don't think you understand)
+I don't think you understand
+
+In the night she hears him calling
+In the night she's dancing to relieve the pain
+But she'll never walk away (I don't think you understand)
+In the night when she comes crawling
+Dollar bills and tears keep falling down her face
+She'll never walk away (I don't think you understand)
+105 E aos seus arbustos dão viço e valia.
+
+“Se tal foi uma roda do afamado
+Carro, em que defendeu-se a Santa Igreja,
+108 E a civil guerra em campo há superado,
+
+“Da outra o alto mérito qual seja
+Já te disse Tomás, eu stando ausente:
+111 Dele nas vozes seu louvor lampeja.
+
+“Porém daquela roda o sulco ingente
+Ficou em desamparo tal, que o lodo
+114 Onde era a flor domina tristemente.
+
+“Vê-se a família sua por tal modo
+Da vereda de outrora transviada,
+117 Que esqueceu-lhe as pegadas já de todo.
+
+“Logo a cultura má será provada
+Na seara, zizânia sendo ao vento,
+120 Em vez de ir ao celeiro, arremessada.
+
+“Que nosso livro folheasse atento
+Veria, creio, página, em que lesse:
+123 — Sou, como sempre, de impureza isento. —
+
+“Em Casal e Água-Sparta igual não vê-se:
+Lá de tal jeito entende-se a Escritura,
+126 Que um tíbio a foge, outro excessivo a empece.
+
+“De Bargnoregio eu sou Boaventura,
+Que, exercendo altos cargos, repelia
+129 Dos interesses temporais a cura.
+
+“Vê, dos irmãos descalços primazia,
+Iluminato, de Agostinho ao lado:
+132 Cada qual no burel por Deus ardia.
+
+“Hugo vê de S. Vítor premiado
+Como Pedro Mangiadore e Pedro Hispano
+135 Pelos seus doze livros celebrado.
+
+“Natã Profeta e o Metropolitano
+João Crisóstomo, Anselmo e o afamado
+138 Donato, na primeira arte sob’rano.
+
+“Vê Rabano, a brilhar vê ao meu lado
+O calabrês Abade Giovachino,
+141 De espírito profético dotado.
+
+“Aos louvores do excelso paladino
+Moveu-me a caridosa cortesia,
+O dizer sábio de Tomás de Aquino,
+
+145 E comigo a esta santa companhia.”
+
+ 
+
+12. Íris, personificação mitológica do arco-íris. — 14. Qual voz do que de amor foi consumida, como voz da ninfa Eco que se consumiu pelo amor por Narciso. — 28. Um dos novos clarões, a alma de S. Boaventura. — 46. Na terra etc., na Espanha. — 53-54. Escudo etc., o escudo dos reis da Castela representava dois leões, um debaixo e outro em cima de um castelo. — 64-66. A encarregada etc., quando do batismo de S. Domingos, a madrinha o viu com uma estrela na testa. — 80. Sua mãe realmente foi Joana. Joana em hebraico tem o significado de “portadora de graças.” — 83. Ostiense, o cardeal Henrique de Susa, que comentou os “Decretais”; Tadeu Aldreotti, florentino, médico; ou, segundo outros comentadores, Tadeu dei Pepoli, jurista bolonhês. — 90. Por culpa etc., de Bonifácio VIII. — 95-96. A planta etc., a fé, de que se alimentaram os espíritos dos vinte e quatro teólogos que estão na presença de Dante. — 124-126. Em Casal e Agua-Sparta, alude à divisão dos franciscanos em dois partidos, um chefiado por libertino de Casale e outro por Mateus d’Acquesparta. — 131. Iluminato e Agostinho, dois companheiros de S. Francisco. — 133-135. Hugo de S. Vitore, Pedro Mangiatore e Pedro Hispano, egrégios teólogos. — 136-139. Natã, o profeta que repreendeu Davi; S. João Crisóstomo, patriarca da Igreja; Donato, gramático latino; S. Anselmo, bispo de Canterbury. — 139-140. Rabano e o abade Giovachino, escritores sacros.
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
